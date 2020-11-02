@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./Styles/styles.css" rel="stylesheet" />
+    <script defer src="./Javascript/canvas.js"></script>
+    <script defer src="./Javascript/battle.js"></script>
+    <script defer src="./Javascript/sounds.js"></script>
+    <script defer src="./Javascript/story.js"></script>
+    <script defer src="./Javascript/game.js"></script>
+    <script defer src="./Javascript/images.js"></script>
+
+    <title>Snatcher</title>
+  </head>
+  <body>
+    <!--   <audio id="audio" src="sounds/musica-mistério.wav"></audio> -->
+
+    <img id="imglogo" src="Imagens/Logo.png" />
+
+    <div id="game">
+      <div id="images" class="fade-in">
+        <img style="visibility: hidden" id="background" src="" />
+        <video style="visibility: hidden" id="background" src=""/>
+      </div>
+      <div class="container">
+        <div class="fade-in" id="text">Text</div>
+        <div id="option-buttons" class="btn-grid">
+          <button class="btn">Option 1</button>
+          <button class="btn">Option 2</button>
+          <button class="btn">Option 3</button>
+          <button class="btn">Option 4</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
