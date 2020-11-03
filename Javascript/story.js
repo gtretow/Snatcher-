@@ -1083,8 +1083,9 @@ const textNodes = [
 
   {
     id: 74,
-    text: "A sala de máquinas é um local com pouca iluminação. Existem guardas no local.",
-  
+    text:
+      "A sala de máquinas é um local com pouca iluminação. Existem guardas no local.",
+
     options: [
       {
         text: "Continuar",
@@ -1096,7 +1097,7 @@ const textNodes = [
   {
     id: 75,
     text: "exemplo",
-  
+
     options: [
       {
         text: "Continuar",
