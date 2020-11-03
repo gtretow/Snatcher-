@@ -4,9 +4,9 @@ const images = document.getElementById("background");
 const gamelogo = document.getElementById("imglogo");
 const gamestart = document.getElementById("game");
 const music = document.getElementById("audio");
-console.log(music);
+
 /* element not aplication */
-music.volume = 0.3;
+music.volume = 0.2;
 /* o que o personagem tem, caso seja usado */
 let state = [];
 /* function para começar o jogo */
@@ -75,13 +75,14 @@ function selectOption(option) {
 /* sfx tela inicial */
 const gunshot = new Audio();
 gunshot.src = "./sounds/gunshot.wav";
-gunshot.volume = 0.5;
+gunshot.volume = 0.7;
 
 /*clicar na imagem e remover o resto */
 document.getElementById("imglogo").addEventListener("click", () => {
   gamelogo.style.display = "none";
   gamestart.style.display = "block";
   // music.pause();
+  music.play();
 
   gunshot.play();
 });

@@ -2,7 +2,8 @@ const textNodes = [
   {
     id: 1,
     img: "./Imagens/cidade1.gif",
-    msc: "./sounds/mscmistery.wav",
+    msc: "./sounds/chuva.mp3",
+
     text: "Astra, 24,07,20xx 10:47",
 
     options: [
@@ -17,6 +18,8 @@ const textNodes = [
     id: 2,
 
     img: "./Imagens/cityfront.gif",
+    msc: "./sounds/chuva2.mp3",
+
     text:
       "Mais um dia onde suas noites terminam em um bar. Acontece que não importa o que aconteça, todo esforço é inútil quando se vive em uma cidade que já desistiu de lutar.",
 
@@ -32,6 +35,7 @@ const textNodes = [
     id: 3,
 
     img: "./Imagens/bar2.gif",
+    msc: "./sounds/bar.mp3",
     text:
       "Dessa vez você foi informado que deveria abandonar mais um caso. O motivo? Você estava chegando perto de desmascarar uma das famílias mais ricas da cidade. Tanto esforço para nada. Você está no “Bueiro”, bar localizado no “fim do mundo”. Local conhecido por ser um dos pontos de informação mais confiáveis da cidade.",
     options: [
@@ -46,6 +50,7 @@ const textNodes = [
   {
     id: 4,
     img: "./Imagens/bar2.gif",
+    msc: "./sounds/bar2.mp3",
     text:
       "Você balança a cabeça e pensa se realmente vale a pena continuar usando um distintivo. Em uma cidade perdida como Astra, você acha que estaria melhor vivendo como pescador ao Sul do país.",
 
@@ -64,6 +69,7 @@ const textNodes = [
   {
     id: 5,
     img: "./Imagens/bar2.gif",
+    msc: "./sounds/bar.mp3",
     text:
       "Após uma garrafa de sua bebida favorita você nota que uma briga está prestes a acontecer no bar. O dono do bar é um idiota, mas você deve uma a ele. Talvez seja a hora de pagar? Embora você ache que não valha a pena se meter no meio de três possíveis membros de gangue.",
 
@@ -82,6 +88,7 @@ const textNodes = [
   {
     id: 6,
     img: "./Imagens/bar2.gif",
+    msc: "./sounds/bar2.mp3",
     text:
       "Você se diverte assistindo amadores brigarem como crianças. Eles estão tão bêbados que nem ao menos seriam capazes de notarem a própria morte. Você abandona o bar e vai em busca de uma maneira de voltar para casa. Tanto tempo infiltrado no mundo do crime acabou te levando mais longe do que deveria. ",
 
@@ -96,6 +103,7 @@ const textNodes = [
   {
     id: 7,
     img: "./Imagens/escolhas.gif",
+    msc: "./sounds/andandochuva.mp3",
     text:
       "As ruas são escuras e parecem um labirinto. De alguma maneira você encontrou uma bifurcação entre as vielas da cidade para sair da zona do bar e precisa escolher para onde seguir",
 
@@ -116,7 +124,7 @@ const textNodes = [
 
     text:
       "Ruas sujas, poucas luz e animais estranhos que um dia foram conhecidos como cachorros. Você encontra uma garagem a céu aberto e decide pular a grade. Na esperança de encontrar um amigo policial, um táxi, ou até mesmo um ladrão de carros que possa te dar uma carona. Que diferença faz? Provavelmente seria um plano entre o ladrão e o dono do carro para ganhar dinheiro com seguro.",
-
+    msc: "./sounds/andandochuva.mp3",
     options: [
       {
         text: "Continuar",
@@ -127,6 +135,7 @@ const textNodes = [
 
   {
     id: 9,
+    msc: "./sounds/gscream.wav",
     text:
       "Ao se aproximar da saída da garagem você escuta um grito. Uma mulher grita por socorro enquanto está sendo roubada por um membro de gangue. Todos na cidade conhecem a gangue em questão. “The Rogues”é como eles gostam de serem chamados. A comunidade local sabe que não interagir com eles é a melhor opção. Você não é como todos eles e pode decidir balançar um pouco com a ordem das coisas. Mas você sabe que as consequências de um ato altruísta pode não ser a melhor opção a longo prazo.",
 
@@ -161,6 +170,7 @@ const textNodes = [
 
   {
     id: 11,
+    msc: "./sounds/gunshot.wav",
     text:
       "O som do disparo de uma bala ecoa por toda rua enquanto você imobiliza o ladrão. Você questiona de onde ela veio e logo nota que o disparo foi efetuado pela própria vítima do crime.",
 
@@ -234,6 +244,8 @@ const textNodes = [
 
   {
     id: 16,
+    msc: "./sounds/gbattle.wav",
+    
     text:
       "Você agarra a mão de Lígia e bola seu plano de fuga. Infelizmente o plano é correr o mais rápido que puder e contar com a sorte de que Deus não tenha abandonado aqueles que ainda tentam fazer o bem. Vocês correm entre balas e carros estacionados, enquanto um musical feito de pistolas e metralhadoras ecoa pela cidade. Felizmente uma bala sua equivale a pelo menos 20 balas inimigas. Afinal, você aprendeu a atirar na academia de polícia. Você consegue chegar na entrada do metrô mas sabe que logo será encurralado. Sua única chance é chegar até a linha amarela do metrô, local onde as gangues estão controladas e a ordem ainda não é sinônimo de caos.",
 
@@ -248,6 +260,8 @@ const textNodes = [
   {
     id: 17,
     img: "./Imagens/metropj.png",
+    msc: "./sounds/correndo.wav",
+
     text:
       "Entre corredores e tiros, você encontra a plataforma de embarque do metrô com conexão para a linha amarela. Nas escadas de acesso, você encontra parte dos membros que conseguiram te encontrar. O local está vazio, afinal, é tarde e a maioria das pessoas não se atreve a andar pelas ruas a essa hora. Você deve lutar ao mesmo tempo que protege Lígia.",
 
@@ -258,10 +272,11 @@ const textNodes = [
       },
     ],
   },
-
+  
   {
     id: 18,
     img: "./Imagens/metropj.png",
+    msc: "./sounds/metro2.wav",
     text:
       "Você tem 2 balas. Derrote TODOS os inimigos! Dois homens armados com revólveres. Dois armados com facas e 1 homem com armado molotov. Pense rápido",
 
