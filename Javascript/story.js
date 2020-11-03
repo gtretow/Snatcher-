@@ -2,6 +2,7 @@ const textNodes = [
   {
     id: 1,
     img: "./Imagens/cidade1.gif",
+    msc: "./sounds/mscmistery.wav",
     text: "Astra, 24,07,20xx 10:47",
 
     options: [
@@ -60,6 +61,7 @@ const textNodes = [
   /* id 5 */
   {
     id: 5,
+    img: "./Imagens/bar2.gif",
     text:
       "Após uma garrafa de sua bebida favorita você nota que uma briga está prestes a acontecer no bar. O dono do bar é um idiota, mas você deve uma a ele. Talvez seja a hora de pagar? Embora você ache que não valha a pena se meter no meio de três possíveis membros de gangue.",
 
@@ -77,6 +79,7 @@ const textNodes = [
 
   {
     id: 6,
+    img: "./Imagens/bar2.gif",
     text:
       "Você se diverte assistindo amadores brigarem como crianças. Eles estão tão bêbados que nem ao menos seriam capazes de notarem a própria morte. Você abandona o bar e vai em busca de uma maneira de voltar para casa. Tanto tempo infiltrado no mundo do crime acabou te levando mais longe do que deveria. ",
 
@@ -90,8 +93,9 @@ const textNodes = [
 
   {
     id: 7,
+    img: "./Imagens/escolhas.gif",
     text:
-      "As ruas são escuras parecem um labirinto. De alguma maneira você encontrou uma bifurcação entre as vielas da cidade para sair da zona do bar e precisa escolher para onde seguir",
+      "As ruas são escuras e parecem um labirinto. De alguma maneira você encontrou uma bifurcação entre as vielas da cidade para sair da zona do bar e precisa escolher para onde seguir",
 
     options: [
       {
@@ -107,8 +111,9 @@ const textNodes = [
 
   {
     id: 8,
+
     text:
-      "Ruas sujas, bêbados dormindo na sarjeta e animais estranhos que um dia foram conhecidos como cachorros. Você encontra uma garagem a céu aberto e decide pular a grade. Na esperança de encontrar um amigo policial, um táxi, ou até mesmo um ladrão de carros que possa te dar uma carona. Que diferença faz? Provavelmente seria um plano entre o ladrão e o dono do carro para ganhar dinheiro com seguro.",
+      "Ruas sujas, poucas luz e animais estranhos que um dia foram conhecidos como cachorros. Você encontra uma garagem a céu aberto e decide pular a grade. Na esperança de encontrar um amigo policial, um táxi, ou até mesmo um ladrão de carros que possa te dar uma carona. Que diferença faz? Provavelmente seria um plano entre o ladrão e o dono do carro para ganhar dinheiro com seguro.",
 
     options: [
       {
@@ -121,7 +126,7 @@ const textNodes = [
   {
     id: 9,
     text:
-      "Ao se aproximar da saída da garagem você escuta um grito. Uma mulher grita por socorro enquanto está sendo roubada a mão armada por um membro de gangue. Todos na cidade conhecem a gangue em questão. “The Rogues”é como eles gostam de serem chamados. A comunidade local sabe que não interagir com eles é a melhor opção. Você não é como todos eles e pode decidir balançar um pouco com a ordem das coisas. Mas você sabe que as consequências de um ato altruísta pode não ser a melhor opção a longo prazo.",
+      "Ao se aproximar da saída da garagem você escuta um grito. Uma mulher grita por socorro enquanto está sendo roubada por um membro de gangue. Todos na cidade conhecem a gangue em questão. “The Rogues”é como eles gostam de serem chamados. A comunidade local sabe que não interagir com eles é a melhor opção. Você não é como todos eles e pode decidir balançar um pouco com a ordem das coisas. Mas você sabe que as consequências de um ato altruísta pode não ser a melhor opção a longo prazo.",
 
     options: [
       {
@@ -180,6 +185,7 @@ const textNodes = [
 
   {
     id: 13,
+
     text:
       "No caminho para fora da cidade vocês conversam brevemente. A mulher (que se chama Lígia) conta que estava trabalhando em seu emprego noturno. Ela precisa do dinheiro pois tem uma criança em sua proteção. O pai abandonou a família para ganhar dinheiro em outro país. Você começa a questionar suas escolhas, afinal, ao intervir no assalto, o resultado de suas ações colocou a mulher em risco de vida. Você pode ser o responsável por uma criança acordar sem família nas próximas horas.",
 
@@ -193,8 +199,10 @@ const textNodes = [
   /*parte do metrô */
   {
     id: 14,
+    img: "./Imagens/cidade.gif",
+
     text:
-      "Parado próximo de um semáforo você percebe que tem algo errado. A cidade está normal. Como seria possível que o fim do mundo estivesse silencioso após a morte de um membro de gangue? Infelizmente a pergunta não permaneceu sem resposta por muito tempo.  Carros aparecem pelas ruas laterais e fecham completamente o seu caminho. A adrenalina já está atingindo ápice dentro de você. Você se sente invencível. Suas escolhes se resumem a duas: ",
+      "Parado próximo de um semáforo, você percebe que tem algo errado. A cidade está normal. Como seria possível que o fim do mundo estivesse silencioso após a morte de um membro de gangue? Infelizmente a pergunta não permaneceu sem resposta por muito tempo.  Carros aparecem pelas ruas laterais e fecham completamente o seu caminho. A adrenalina já está atingindo ápice dentro de você. Você se sente invencível. Suas escolhes se resumem a duas: ",
 
     options: [
       {
@@ -237,6 +245,7 @@ const textNodes = [
 
   {
     id: 17,
+    img: "./Imagens/metropj.png",
     text:
       "Entre corredores e tiros, você encontra a plataforma de embarque do metrô com conexão para a linha amarela. Nas escadas de acesso, você encontra parte dos membros que conseguiram te encontrar. O local está vazio, afinal, é tarde e a maioria das pessoas não se atreve a andar pelas ruas a essa hora. Você deve lutar ao mesmo tempo que protege Lígia.",
 
@@ -250,6 +259,7 @@ const textNodes = [
 
   {
     id: 18,
+    img: "./Imagens/metropj.png",
     text:
       "Você tem 2 balas. Derrote TODOS os inimigos! Dois homens armados com revólveres. Dois armados com facas e 1 homem com armado molotov. Pense rápido",
 
@@ -274,6 +284,7 @@ const textNodes = [
   /*obs aqui */
   {
     id: 147,
+    img: "./Imagens/metropj.png",
     text:
       "Pensando rápidamente você dispara contra o molotov e um dos homens armados. A explosão da bomba caseira acaba matando o inimigo com a bomba e o segundo homem armado. Você cuida rápidamente dos homens com as facas.",
 
@@ -287,6 +298,7 @@ const textNodes = [
 
   {
     id: 19,
+    img: "./Imagens/subway.gif",
     text:
       "Não foi fácil, mas você conseguiu vencer todos os inimigos bem a tempo de fugir do restante dos membros que estavam para chegar. Você e Lígia fogem para dentro do metro. Você usa o telefone de emergência do metrô e pede reforço para uma emboscada. Lígia questiona o motivo dos policias da cidade se darem ao trabalho de ajudar duas pessoas vindas do fim do mundo ao mesmo tempo em que arriscam suas vidas. Você sabe que a resposta é simples. As famílias mais ricas da cidade vivem na linha amarela. ",
 
@@ -300,6 +312,7 @@ const textNodes = [
 
   {
     id: 20,
+    img: "./Imagens/subway.gif",
     text:
       "Infelizmente a viagem não será tranquila. Alguns membros da Rogue conseguiram entrar no metrô com vocês. Você respira fundo e se prepara para enfrentar um vagão inteiro de inimigos que está vindo atrás de você. ",
 
@@ -313,6 +326,7 @@ const textNodes = [
 
   {
     id: 22,
+    img: "./Imagens/subway.gif",
     text: "Os inimigos estão acumulando aos poucos",
 
     options: [
@@ -330,6 +344,7 @@ const textNodes = [
 
   {
     id: 23,
+    img: "./Imagens/subway.gif",
     text: "Você deteu alguns inimigos, mas agora o vagão ficou lotado.",
 
     options: [
@@ -347,6 +362,7 @@ const textNodes = [
 
   {
     id: 24,
+    img: "./Imagens/subway.gif",
     text: "Alguns inimigos cairam, ainda existem muitos, mas você ganhou tempo",
 
     options: [
@@ -369,6 +385,7 @@ const textNodes = [
 
   {
     id: 25,
+    img: "./Imagens/subway.gif",
     text: "Os inimigos estão na sua cola",
 
     options: [
@@ -389,6 +406,7 @@ const textNodes = [
 
   {
     id: 26,
+    img: "./Imagens/subway.gif",
     text: "Alguns poucos inimigos já estavam a sua espera no vagão",
 
     options: [
@@ -401,6 +419,7 @@ const textNodes = [
 
   {
     id: 27,
+    img: "./Imagens/subway.gif",
     text: "Existem muitos inimigos no local",
 
     options: [
@@ -418,6 +437,7 @@ const textNodes = [
 
   {
     id: 28,
+    img: "./Imagens/subway.gif",
     text:
       "Você foi surprendido por mais inimigos do que podia aguentar. Com um golpe em sua nuca, seus ultimos suspiros também são os ultimos de Lígia",
 
@@ -431,6 +451,7 @@ const textNodes = [
 
   {
     id: 29,
+    img: "./Imagens/subway.gif",
     text:
       "Os inimigos te alcançaram pois você não tinha como para-los. Acabou.",
 
@@ -444,6 +465,7 @@ const textNodes = [
 
   {
     id: 30,
+    img: "./Imagens/subway.gif",
     text:
       "O calor do momento era tanto que você acabou esquecendo de quem deveria proteger. Lígia foi pega e você não conseguiu prevenir a morte da garota.",
 
@@ -462,6 +484,7 @@ const textNodes = [
 
   {
     id: 31,
+    img: "./Imagens/metro.png",
     text:
       "Ao chegar na conexão para a linha amarela, seus inimigos começam a se aglomerar nas portas de saída dos vagões. Você está muito cansado para lutar, mas felizmente os seus planos costumam ser infalíveis e como você previu, a polícia logo apareceu para ajudar no confronto.",
 
@@ -475,6 +498,7 @@ const textNodes = [
 
   {
     id: 32,
+    img: "./Imagens/metro.png",
     text:
       "Adrenalina, sangue e suor. Você não consegue mais distinguir o certo do errado. Inimigos sendo mortos brutalmente e inocentes sendo machucados. A pessoa que tentava fazer o certo morreu no momento em que Lígia foi morta",
 
@@ -488,6 +512,7 @@ const textNodes = [
 
   {
     id: 33,
+    img: "./Imagens/metro.png",
     text:
       "Apenas 10 minutos foram necessários para tudo acabar. Há quem diga que a brutalidade policial ganhou. Mas o que é brutalidade em uma cidade como Astra? Entre feridos, mortos e presos, você se encontra cansado. Lígia respira aliviada pois sabe que acabou. A garota treme de medo enquanto tenta planejar uma maneira de buscar sua filha e se mudar dessa cidade infernal amanhã mesmo. ",
 
@@ -501,6 +526,7 @@ const textNodes = [
 
   {
     id: 34,
+    img: "./Imagens/metro.png",
     text:
       "Apenas 10 minutos foram necessários para tudo acabar. Há quem diga que a brutalidade policial ganhou. Mas o que é brutalidade em uma cidade como Astra? Entre feridos, mortos e presos, você ainda sente o gosto de sangue dos inimigos na sua boca.",
 
@@ -514,6 +540,7 @@ const textNodes = [
 
   {
     id: 35,
+    img: "./Imagens/metro.png",
     text:
       "Após os agradecimentos você deixa Lígia aos cuidados dos médicos e sai do metrô para buscar um táxi e finalmente retornar para casa. O Taxista é um falastrão mas dessa vez você não quer papo. Ele deve achar que você é uma pessoa horrível. ",
 
@@ -527,6 +554,7 @@ const textNodes = [
 
   {
     id: 36,
+    img: "./Imagens/taxi.jpg",
     text:
       "Ao chegar em casa você encontra um gato próximo a sua porta. Deseja convidá-lo para entrar?",
 
@@ -609,6 +637,7 @@ const textNodes = [
 
   {
     id: 42,
+    img: "./Imagens/cidade.gif",
     text:
       "Parado próximo de um semáforo você percebe que tem algo errado. A cidade está normal. Como seria possível que o fim do mundo estivesse silencioso após a morte de um membro de gangue? Infelizmente a pergunta não permaneceu sem resposta por muito tempo.  Carros aparecem pelas ruas laterais e fecham completamente o seu caminho. A adrenalina já está atingindo ápice dentro de você. Você se sente invencível. Suas escolhes se resumem a duas: ",
 
@@ -627,6 +656,7 @@ const textNodes = [
 
   {
     id: 44,
+    img: "./Imagens/cidade.gif",
     text:
       "Você foi surprendido por mais inimigos do que podia aguentar. Ao tentar revidar, uma chuva de tiros encontrou o caminho até seu corpo. É o fim.",
 

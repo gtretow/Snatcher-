@@ -12,7 +12,7 @@ let state = [];
 /* function para começar o jogo */
 function startGame() {
   state = [];
-  // music.play();
+  /*   music.play(); */
   showTextNode(1);
 }
 
@@ -30,6 +30,13 @@ function showTextNode(textNodeIndex) {
     images.style.visibility = "hidden";
     images.src = "";
   }
+  if (textNode.msc) {
+    music.src = textNode.msc;
+  }
+  if (!textNode.msc) {
+    music.src = "";
+  }
+
   /*  images.appendChild(img); */
   /* mostra o texto */
   textElement.innerText = textNode.text;
@@ -63,7 +70,7 @@ function selectOption(option) {
   state = Object.assign(state, option.setState);
   showTextNode(nextTextNodeId);
 }
-/*efx */
+/* sfx tela inicial */
 const gunshot = new Audio();
 gunshot.src = "./sounds/gunshot.wav";
 gunshot.volume = 0.7;
@@ -73,12 +80,8 @@ document.getElementById("imglogo").addEventListener("click", () => {
   gamelogo.style.display = "none";
   gamestart.style.display = "block";
   // music.pause();
+
   gunshot.play();
 });
-/*Trocar imagens */
-
-let changeImage = function (img) {
-  images.style.backgroundImage = "images.js";
-};
 
 startGame();
