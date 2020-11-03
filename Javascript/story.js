@@ -100,7 +100,7 @@ const textNodes = [
       },
       {
         text: "Escolher direita",
-        nextText: 7,
+        nextText: 125,
       },
     ],
   },
@@ -130,7 +130,7 @@ const textNodes = [
       },
       {
         text: "Seguir seu caminho",
-        nextText: 9,
+        nextText: 129,
       },
     ],
   },
@@ -199,7 +199,7 @@ const textNodes = [
     options: [
       {
         text: "Lutar",
-        nextText: 14,
+        nextText: 28,
       },
 
       {
@@ -251,23 +251,36 @@ const textNodes = [
   {
     id: 18,
     text:
-      "Você tem 2 balas. Derrote TODOS os inimigos! Dois homens armados com revólveres. Dois armados com facas e 1 homem com armado molotov. Homens armados com armas de foco e molotovs são mais lentos, mas podem causar um estrago maior. Homens armados com facas são rápido, mas você da conta dos dois sozinho.",
+      "Você tem 2 balas. Derrote TODOS os inimigos! Dois homens armados com revólveres. Dois armados com facas e 1 homem com armado molotov. Pense rápido",
 
     options: [
       {
         text:
           "Atirar nos homens armados, cuidar do capangas com facas e finalizar o inimigo com molotov.",
-        nextText: 18,
+        nextText: 28,
       },
       {
         text:
-          "Atirar em um homem armado e no inimigo com molotov. Cuidar dos outros desarmado. ",
-        nextText: 19,
+          "Atirar em um homem armado e no molotov. Cuidar dos outros desarmado. ",
+        nextText: 147,
       },
       {
         text:
           "Atirar nos homens armados com facas e cuidar dos outros desarmado.",
-        nextText: 18,
+        nextText: 28,
+      },
+    ],
+  },
+  /*obs aqui */
+  {
+    id: 147,
+    text:
+      "Pensando rápidamente você dispara contra o molotov e um dos homens armados. A explosão da bomba caseira acaba matando o inimigo com a bomba e o segundo homem armado. Você cuida rápidamente dos homens com as facas.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 19,
       },
     ],
   },
@@ -1818,12 +1831,281 @@ const textNodes = [
 
   {
     id: 124,
+    text:
+      "Você sabe que provavelmente é mais uma tentativa fracassada de sequestro. Eles nunca conseguem chegar perto da área dos ricos. Você levanta e decide voltar para casa. Você já está cansado de ter seus planos frustrados e não precisa de outro problema na vida.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 125,
+      },
+    ],
+  },
+
+  {
+    id: 125,
+    text:
+      "Ruas destruídas e pessoas dormindo na sarjeta. Será que um dia foi diferente? Animais estranhos rondam pelo caminho. Contam por aí que um dia já foram conhecidos como o melhor amigo do homem. Você encontra uma garagem a céu aberto e decide pular a grade. ",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 126,
+      },
+    ],
+  },
+
+  {
+    id: 127,
+    text:
+      "Ao se aproximar da saída da garagem você escuta um grito. Uma mulher grita por socorro enquanto está sendo roubada a mão armada por um membro da gangue intitulada “The Warriors”. Todos na cidade conhecem a gangue e sabem que não interagir com eles é a melhor opção. Você não é como todos eles e pode decidir balançar um pouco com a ordem das coisas. Mas você sabe que as consequências de um ato altruísta pode não ser a melhor opção a longo prazo.",
+
+    options: [
+      {
+        text: "Ajudar",
+        nextText: 128,
+      },
+
+      {
+        text: "Ignorar",
+        nextText: 129,
+      },
+    ],
+  },
+
+  {
+    id: 128,
+    text:
+      "O bandido foi facilmente derrotado. Ele não conseguiu nem ao menos levantar o punho antes de ser apagado por você. A mulher tenta agradecer enquanto segura o nervosismo.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 130,
+      },
+    ],
+  },
+
+  {
+    id: 129,
+    text:
+      "Você não aguenta mais essa cidade. Quer saber? Não ajudar deve ser o melhor a se fazer. Você ignora a cena e continua seu caminho de paz em direção a sua casa. Talvez você esteja morto por dentro.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 40,
+      },
+    ],
+  },
+
+  {
+    id: 130,
+    text:
+      "Ela parece cansada, falou que só estava procurando um lugar para comer, pois trabalhava em uma fábrica e não voltava para casa havia 4 dias. A mulher está perdida e não sabe para onde ir. ",
+
+    options: [
+      {
+        text: "Ajudar",
+        nextText: 131,
+      },
+
+      {
+        text: "Boa sorte",
+        nextText: 40,
+      },
+    ],
+  },
+
+  {
+    id: 131,
+    text:
+      "Você sabe como a vida aqui é difícil. Acabou decidindo levá-la a um lugar para comer. Pelo menos assim você teria cumprido a sua cota de boas ações da semana.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 132,
+      },
+    ],
+  },
+
+  {
+    id: 132,
+    text:
+      "Entre pratos de comida e xícaras quentes de café, vocês acabam notando que ambos viveram vidas muito semelhantes. Ambos vem de uma família controladora, que sempre queria decidir o que era melhor para quem. Na verdade, faz muito tempo que você não conhece alguém assim.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 133,
+      },
+    ],
+  },
+
+  {
+    id: 133,
+    text:
+      "Tudo está ótimo, mas o momento só dura até o um celular tocar (quem ainda usa celular nesses tempos? Alguém aqui está sendo rastreada). É a polícia. Após uma breve conversa a mulher é informada que há algum tempo o carro da filha foi encontrado destruído e a garota estava desaparecida.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 134,
+      },
+    ],
+  },
+
+  {
+    id: 134,
     text: "exemplo",
-  
+
     options: [
       {
         text: "Continuar",
         nextText: 2,
+      },
+    ],
+  },
+
+  {
+    id: 135,
+    text:
+      "O ar fica carregado. Entre choros de desespero e tentativas para acalmar uma mãe sem esperanças, você acaba pedindo uma foto da garota. ",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 136,
+      },
+    ],
+  },
+
+  {
+    id: 136,
+    text:
+      "No momento em que a mãe mostra a foto, você lamenta não poder voltar no tempo. Todas as descrições da menina do bar batem com a foto. Mas por quê sequestrariam uma mulher da zona pobre da cidade? Você lamenta as escolhas erradas que fez nessa noite.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 137,
+      },
+    ],
+  },
+
+  {
+    id: 137,
+    text:
+      "Você decide tenta ajudar e explica para a mulher que pode ter uma pista de onde a garota esteja.",
+
+    options: [
+      {
+        text: "Investigar",
+        nextText: 138,
+      },
+    ],
+  },
+
+  {
+    id: 138,
+    text:
+      "Após ser questionado sobre como isso seria possível, você responde a verdade. Você teve a chance de prevenir isso mas acabou deixando a chance passar. Você explica o ocorrido.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 139,
+      },
+    ],
+  },
+
+  {
+    id: 139,
+    text:
+      "A mulher está arrasada. Ao escutar todas as palavras que ela tem a dizer sobre você e seu caráter, você decide procurar pistas.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 140,
+      },
+    ],
+  },
+
+  {
+    id: 141,
+    text:
+      "Depois de 4 horas você consegue rastrear os bêbados do bar e usa as informações deles para chegar em um apartamento.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 142,
+      },
+    ],
+  },
+
+  {
+    id: 142,
+    text:
+      "A polícia está no local. Já é tarde demais. Os inexperientes investigadores da polícia estão tomando conta do lugar e você não tem a autorização necessária para entrar. Parece que houve um assassinato lá dentro e a casa já foi revirada pela própria polícia para procurar pistas.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 143,
+      },
+    ],
+  },
+
+  {
+    id: 143,
+    text:
+      "Infeliz por descobrir o resultado de seus atos, você caminha pelas sombras da cidade, bêbado e sem esperanças.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 144,
+      },
+    ],
+  },
+
+  {
+    id: 144,
+    text:
+      "Como o fim de um filme trágico, você acaba não percebendo as luzes fortes que vem da estrada e é atropelado.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 145,
+      },
+    ],
+  },
+
+  {
+    id: 145,
+    text:
+      "É o fim. Entre todas as escolhas disponíveis, você tomou as piores possíveis.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 146,
+      },
+    ],
+  },
+
+  {
+    id: 146,
+    text: "Descanse em paz.",
+
+    options: [
+      {
+        text: "Fim",
+        nextText: -1,
       },
     ],
   },
