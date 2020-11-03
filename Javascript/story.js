@@ -1047,7 +1047,7 @@ const textNodes = [
   },
 
   {
-    id: 71,
+    /* escolha para onde ir */ id: 71,
     text:
       "Seu objetivo é segundo andar. A sala principal está cheia de guardas.",
 
@@ -1064,19 +1064,20 @@ const textNodes = [
 
       {
         text: "Entrar no corredor direito",
-        nextText: 75,
+        nextText: 77,
       },
     ],
   },
 
   {
     /* capturado */ id: 73,
-    text: "Você foi capturado.",
+    text:
+      "Parece que você foi surpreendido por mais guardas do que você pode dar conta. Você foi capturado.",
 
     options: [
       {
         text: "Continuar",
-        nextText: 71,
+        nextText: 80,
       },
     ],
   },
@@ -1088,20 +1089,457 @@ const textNodes = [
 
     options: [
       {
-        text: "Continuar",
-        nextText: 2,
+        text: "Nocautear alguns guardas",
+        nextText: 75,
+      },
+
+      {
+        text: "Atravessar a sala com calma",
+        nextText: 76,
+      },
+
+      {
+        text: "Voltar por onde veio",
+        nextText: 73,
       },
     ],
   },
 
   {
     id: 75,
-    text: "exemplo",
+    text:
+      "Ao nocautear os guardas você consegue um soco inglês que um deles carregava",
+
+    options: [
+      {
+        text: "Continuar o caminho",
+        setState: { soco: true },
+        nextText: 76,
+      },
+    ],
+  },
+
+  {
+    id: 76,
+    text: "Você está quase lá! Existem alguns guardas em frente a escadaria.",
+
+    options: [
+      {
+        text: "Nocautear os guardas",
+        nextText: 76,
+      },
+
+      {
+        text: "Esperar",
+        nextText: 73,
+      },
+    ],
+  },
+
+  {
+    id: 76,
+    text:
+      "Você conseguiu! Você sobe as escadas com calma e chega na sala principal onde acredita que a vítima esteja. Você entra e rápidamente tranca a porta com uma barra de ferro",
 
     options: [
       {
         text: "Continuar",
-        nextText: 2,
+        nextText: 79,
+      },
+    ],
+  },
+
+  {
+    id: 77,
+    text:
+      "O corredor não tem muito movimento. Como a vítima do sequestro é uma garota pobre, eles não esperam que algum louco tente alguma coisa.",
+
+    options: [
+      {
+        text: "Seguir em frente",
+        nextText: 78,
+      },
+
+      {
+        text: "Voltar",
+        nextText: 71,
+      },
+
+      {
+        text: "Gritar??",
+        nextText: 73,
+      },
+    ],
+  },
+
+  {
+    id: 78,
+    text: "Você está quase lá. Só há um guarda na escadaria próxima.",
+
+    options: [
+      {
+        text: "Atacar o guarda sorrateiramente e subir",
+        nextText: 76,
+      },
+
+      {
+        text: "Voltar para a porta da fábrica??",
+        nextText: 71,
+      },
+    ],
+  },
+
+  {
+    id: 79,
+    text:
+      "Você conseguiu! Você sobe as escadas com calma e chega na sala principal onde acredita que a vítima esteja. Você entra e rápidamente tranca a porta com uma barra de ferro",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 94,
+      },
+    ],
+  },
+
+  {
+    id: 80,
+    text:
+      "Você é bom. Muito bom. Mas até os melhores cometem erros. Você foi capturado. Após alguns socos no estomago para descobrir quem você é e o motivo de estar na fábrica, os membros da Orphans te jogam dentro de uma sala e vão atrás do chefe da gangue para descobrir o que fazer com você.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 81,
+      },
+    ],
+  },
+
+  {
+    id: 81,
+    text: "Descubra como sair da sala (você não tem muito tempo).",
+
+    options: [
+      {
+        text: "Se aproximar da janela",
+        nextText: 82,
+      },
+
+      {
+        text: "Olhar a mesa com comida",
+        nextText: 83,
+      },
+
+      {
+        text: "Bater na porta",
+        nextText: 84,
+      },
+    ],
+  },
+
+  {
+    id: 82,
+    text:
+      "É possível abrir a janela, mas o caminho até o chão não parece dos mais favoráveis. O que você tem a perder?",
+
+    options: [
+      {
+        text: "Pular",
+        nextText: 84,
+      },
+
+      {
+        text: "Voltar para onde estava",
+        nextText: 83,
+      },
+    ],
+  },
+
+  {
+    id: 83,
+    text: "Descubra como sair da sala (o tempo está acabando)",
+
+    options: [
+      {
+        text: "Se aproximar da janela",
+        nextText: 82,
+      },
+
+      {
+        text: "Olhar a mesa com comida",
+        nextText: 86,
+      },
+
+      {
+        text: "Bater na porta",
+        nextText: 87,
+      },
+    ],
+  },
+
+  {
+    id: 84,
+    text:
+      "A respiração é ofegante e o tempo é curso. Você corre em direção a janela e salta para sua liberdade!",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 85,
+      },
+    ],
+  },
+
+  {
+    id: 85,
+    text:
+      "Infelizmente a gravidade não foi gentil com você. O encontro com o chão foi mais grave do que você calculou. Você está morto.",
+
+    options: [
+      {
+        text: "Reiniciar",
+        nextText: -1,
+      },
+    ],
+  },
+
+  {
+    id: 86,
+    text:
+      "Na mesa você encontra uma pilha de lixo, um pote de ketchup, um garfo e capacete. PENSE RÁPIDO!",
+
+    options: [
+      {
+        text: "Pegar o garfo e armar uma emboscada para o guarda da porta",
+        nextText: 88,
+      },
+
+      {
+        text: "Pegar o ketchup",
+        nextText: 90,
+      },
+
+      {
+        text: "Usar o capacete para se proteger ao pular pela janela",
+        nextText: 84,
+      },
+    ],
+  },
+
+  {
+    id: 87,
+    text: "O guarda ameaça entrar e te matar caso você faça isso mais uma vez.",
+
+    options: [
+      {
+        text: "Recuar",
+        nextText: 83,
+      },
+
+      {
+        text: "Bater na porta outra vez",
+        nextText: 88,
+      },
+    ],
+  },
+
+  {
+    id: 88,
+    text:
+      "Você irrita o guarda e o convida a entrar e terminar o serviço dele. O idiota morde a ísca, mas no fim, quem vai rir por ultimo?",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 89,
+      },
+    ],
+  },
+
+  {
+    id: 89,
+    text:
+      "Embora você tenha preparado um plano, o revolver carregado foi mais forte do que você. O guarda foi morto, mas enquanto o sangue dele banha o chão da cozinha, você da seus útimos suspiros.",
+
+    options: [
+      {
+        text: "Reiniciar",
+        nextText: -1,
+      },
+    ],
+  },
+
+  {
+    id: 90,
+    text:
+      "Do lado de fora da prisão o soldado escuta um grito de pavor seguido de um corpo estatelado no chão. Ao olhar pela janela da porta, ele nota seu corpo caído ao lado de uma poça de sangue.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 91,
+      },
+    ],
+  },
+
+  {
+    id: 92,
+    text:
+      "O inimigo se preocupa e corre para ver o que aconteceu com você. Logo em seguida o som de sua voz abafada é tudo que ecoa pelo quarto. Você levanta e enforca o soldado até ele perder os sentidos.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 93,
+      },
+    ],
+  },
+
+  {
+    id: 93,
+    text:
+      "Desesperado, o soldado acaba derrubando sua arma por um buraco estreito localizado no canto da sala e logo em seguida desmaia. Você venceu a briga. Quem diria que a liberdade custaria apenas sua camisa favorita?",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 79,
+      },
+    ],
+  },
+
+  {
+    id: 94,
+    text:
+      "Um galpão enorme, você, uma garota desmaiada e um porco em forma de homem. Você já não aguenta mais e quer que o dia de hoje simplesmente acabe.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 95,
+      },
+    ],
+  },
+
+  {
+    id: 95,
+    text:
+      "Pigma, o chefe da gangue aparentemente saiu do buraco dele para encontrar a garota pessoalmente. Mas por quê?",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 96,
+      },
+    ],
+  },
+
+  {
+    id: 96,
+    text:
+      "É claro que se trata de amor não correspondido. O porco não suporta ser rejeitado pela mulher que ele ama. Se ele não pode ter a mão da garota, ninguém poderá. Seu destino será o fundo de um lago.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 97,
+      },
+    ],
+  },
+
+  {
+    id: 97,
+    text:
+      "A essa altura ele não quer nem saber os seus motivos. Ele te dá a opção de virar as costas e ir embora, ou ficar e morrer.",
+
+    options: [
+      {
+        text: "Lutar",
+        nextText: 98,
+      },
+
+      {
+        text: "Fugir",
+        nextText: 99,
+      },
+    ],
+  },
+
+  {
+    id: 99,
+    text:
+      "Pensando bem, você já está cansado de arriscar sua vida pelos outros. Você só quer paz. Você dá adeus a Pigma e a garota desmaiada e parte em direção a saída da fábrica. ",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 101,
+      },
+    ],
+  },
+
+  {
+    id: 100,
+    text:
+      "Antes mesmo de abrir a porta, o disparo de um revolver rasga o silencio da sala. Com o sangue na garganta, você lamenta suas escolhas e reza que tenha uma vida com um pouco mais de paz na próxima encarnação. É o fim.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 40,
+      },
+    ],
+  },
+
+  {
+    id: 101,
+    text:
+      "Você sabe que não tem mais volta. Monstros como esse cara precisam ser parados. ",
+
+    options: [
+      {
+        text: "Lutar",
+        nextText: 103,
+      },
+
+      {
+        text: "Conversar",
+        nextText: 104,
+      },
+    ],
+  },
+
+  {
+    id: 102,
+    text:
+      "Não há diálogo possível entre vocês dois. A fera já não pensa com clareza. Pigma rapidamente atira em você! O tiro pegou no ombro, você acabou derrubando alguns itens que estavam guardados",
+
+    options: [
+      {
+        text: "Partir para a luta",
+        requiredState: (currentState) => currentState.soco,
+        setState: { soco: false },
+        nextText: 103,
+      },
+    ],
+  },
+
+  {
+    id: 103,
+    text:
+      "Escolha seus movimentos. Pigma é grande e seu ponto fraco é na cabeça. Ele possui uma péssima mira (porcos não sabem atirar bem).",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 104,
+      },
+
+      {
+        text: "Utilizar soco inglês",
+        requiredState: (currentState) => currentState.soco,
+        setState: { soco: false },
+        nextText: 105,
       },
     ],
   },
