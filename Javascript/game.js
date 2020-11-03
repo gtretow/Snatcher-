@@ -36,6 +36,7 @@ function showTextNode(textNodeIndex) {
   if (!textNode.msc) {
     music.src = "";
   }
+  /* aaa */
 
   /*  images.appendChild(img); */
   /* mostra o texto */
