@@ -817,11 +817,8 @@ const textNodes = [
 
       {
         text: "Computador",
-        requiredState: (currentState) => currentState.chaves,
-        requiredState: (currentState) => currentState.anotacoes,
         requiredState: (currentState) => currentState.senha,
-        setState: { chaves: false },
-        setState: { anotacoes: false },
+
         setState: { senha: false },
         nextText: 64,
       },
@@ -931,8 +928,6 @@ const textNodes = [
 
       {
         text: "Computador",
-        requiredState: (currentState) => currentState.chaves,
-        requiredState: (currentState) => currentState.anotacoes,
         requiredState: (currentState) => currentState.senha,
         chaves: false,
         anotacoes: false,
@@ -1139,7 +1134,7 @@ const textNodes = [
     options: [
       {
         text: "Nocautear os guardas",
-        nextText: 76,
+        nextText: 999,
       },
 
       {
@@ -1150,14 +1145,14 @@ const textNodes = [
   },
 
   {
-    id: 76,
+    id: 999,
     text:
       "Você conseguiu! Você sobe as escadas com calma e chega na sala principal onde acredita que a vítima esteja. Você entra e rápidamente tranca a porta com uma barra de ferro",
 
     options: [
       {
         text: "Continuar",
-        nextText: 79,
+        nextText: 94,
       },
     ],
   },
@@ -1468,7 +1463,7 @@ const textNodes = [
     options: [
       {
         text: "Lutar",
-        nextText: 98,
+        nextText: 101,
       },
 
       {
