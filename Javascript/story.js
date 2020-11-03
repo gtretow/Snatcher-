@@ -4,7 +4,7 @@ const textNodes = [
     img: "./Imagens/cidade1.gif",
     msc: "./sounds/chuva.mp3",
 
-    text: "Astra, 24,07,20xx 10:47",
+    text: "Cidade de Astra. Data: 24.07.20xx Horário: 22:47",
 
     options: [
       {
@@ -18,7 +18,7 @@ const textNodes = [
     id: 2,
 
     img: "./Imagens/cityfront.gif",
-    msc: "./sounds/chuva2.mp3",
+    msc: "./sounds/chuva.mp3",
 
     text:
       "Mais um dia onde suas noites terminam em um bar. Acontece que não importa o que aconteça, todo esforço é inútil quando se vive em uma cidade que já desistiu de lutar.",
@@ -245,7 +245,7 @@ const textNodes = [
   {
     id: 16,
     msc: "./sounds/gbattle.wav",
-    
+
     text:
       "Você agarra a mão de Lígia e bola seu plano de fuga. Infelizmente o plano é correr o mais rápido que puder e contar com a sorte de que Deus não tenha abandonado aqueles que ainda tentam fazer o bem. Vocês correm entre balas e carros estacionados, enquanto um musical feito de pistolas e metralhadoras ecoa pela cidade. Felizmente uma bala sua equivale a pelo menos 20 balas inimigas. Afinal, você aprendeu a atirar na academia de polícia. Você consegue chegar na entrada do metrô mas sabe que logo será encurralado. Sua única chance é chegar até a linha amarela do metrô, local onde as gangues estão controladas e a ordem ainda não é sinônimo de caos.",
 
@@ -272,7 +272,7 @@ const textNodes = [
       },
     ],
   },
-  
+
   {
     id: 18,
     img: "./Imagens/metropj.png",
@@ -732,7 +732,7 @@ const textNodes = [
   {
     id: 46,
     text:
-      " O que você tem a perder? Talvez você só precisar descarregar sua raiva em alguém. Rapidamente você salta no meio dos três enquanto diz para o dono do bar que é a última vez que você o ajuda. ",
+      " O que você tem a perder? Você só precisa descarregar suas frustrações em alguém. Rapidamente você salta no meio dos três enquanto diz para o dono do bar que é a última vez que você o ajuda. ",
 
     options: [
       {
@@ -1104,7 +1104,7 @@ const textNodes = [
   {
     /* escolha para onde ir */ id: 71,
     text:
-      "Seu objetivo é segundo andar. A sala principal está cheia de guardas.",
+      "Seu objetivo é o segundo andar. A sala principal está cheia de guardas.",
 
     options: [
       {
@@ -1788,7 +1788,7 @@ const textNodes = [
     options: [
       {
         text: "Pegue a arma",
-        nextText: 111,
+        nextText: 114,
       },
     ],
   },
