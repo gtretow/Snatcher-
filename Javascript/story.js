@@ -336,7 +336,7 @@ const textNodes = [
     options: [
       {
         text: "Escolha a hora certa para fugir e para lutar",
-        nextText: 21,
+        nextText: 22,
       },
     ],
   },
@@ -1432,7 +1432,7 @@ const textNodes = [
     options: [
       {
         text: "Continuar",
-        nextText: 91,
+        nextText: 92,
       },
     ],
   },
@@ -1466,7 +1466,7 @@ const textNodes = [
   {
     id: 94,
     text:
-      "Um galpão enorme, você, uma garota desmaiada e um porco em forma de homem. Você já não aguenta mais e quer que o dia de hoje simplesmente acabe.",
+      "O chefe da gangue e a garota estão em uma área enorme. Você já não aguenta mais e quer que o dia de hoje simplesmente acabe.",
 
     options: [
       {
@@ -1479,7 +1479,7 @@ const textNodes = [
   {
     id: 95,
     text:
-      "Pigma, o chefe da gangue aparentemente saiu do buraco dele para encontrar a garota pessoalmente. Mas por quê?",
+      "Pigm é o chefe da gangue. Aparentemente ele saiu de seu buraco para encontrar a garota pessoalmente. Mas por quê?",
 
     options: [
       {
@@ -1559,7 +1559,7 @@ const textNodes = [
 
       {
         text: "Conversar",
-        nextText: 104,
+        nextText: 102,
       },
     ],
   },
@@ -1887,12 +1887,12 @@ const textNodes = [
   {
     id: 125,
     text:
-      "Ruas destruídas e pessoas dormindo na sarjeta. Será que um dia foi diferente? Animais estranhos rondam pelo caminho. Contam por aí que um dia já foram conhecidos como o melhor amigo do homem. Você encontra uma garagem a céu aberto e decide pular a grade. ",
+      "Ruas imundas e pessoas dormindo na sarjeta. Será que um dia foi diferente? Animais estranhos rondam pelo caminho. Contam por aí que um dia já foram conhecidos como o melhor amigo do homem. Você encontra uma garagem a céu aberto e decide pular a grade. ",
 
     options: [
       {
         text: "Continuar",
-        nextText: 126,
+        nextText: 127,
       },
     ],
   },
@@ -1993,19 +1993,7 @@ const textNodes = [
     options: [
       {
         text: "Continuar",
-        nextText: 134,
-      },
-    ],
-  },
-
-  {
-    id: 134,
-    text: "exemplo",
-
-    options: [
-      {
-        text: "Continuar",
-        nextText: 2,
+        nextText: 135,
       },
     ],
   },
@@ -2070,7 +2058,7 @@ const textNodes = [
     options: [
       {
         text: "Continuar",
-        nextText: 140,
+        nextText: 141,
       },
     ],
   },

@@ -88,3 +88,13 @@ document.getElementById("imglogo").addEventListener("click", () => {
 });
 
 startGame();
+
+/*Instância todos os sons utilizados*/
+/* const backgroundSound = new Audio();
+backgroundSound.src = "./sounds/tristram.mp3";
+backgroundSound.volume = 0.2;
+const quitSound = new Audio();
+quitSound.src = "./sounds/angry-ghost.wav"; */
+
+/* window.onload = () => {
+  "onload", backgroundSound.play(); }; */
