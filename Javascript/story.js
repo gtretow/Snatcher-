@@ -15,6 +15,7 @@ const textNodes = [
   /* id 2 */
   {
     id: 2,
+
     img: "./Imagens/cityfront.gif",
     text:
       "Mais um dia onde suas noites terminam em um bar. Acontece que não importa o que aconteça, todo esforço é inútil quando se vive em uma cidade que já desistiu de lutar.",
@@ -29,6 +30,7 @@ const textNodes = [
   /* id 3 */
   {
     id: 3,
+
     img: "./Imagens/bar2.gif",
     text:
       "Dessa vez você foi informado que deveria abandonar mais um caso. O motivo? Você estava chegando perto de desmascarar uma das famílias mais ricas da cidade. Tanto esforço para nada. Você está no “Bueiro”, bar localizado no “fim do mundo”. Local conhecido por ser um dos pontos de informação mais confiáveis da cidade.",
