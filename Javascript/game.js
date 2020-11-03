@@ -8,10 +8,10 @@ const music = document.getElementById("audio");
 /* element not aplication */
 
 /* o que o personagem tem, caso seja usado */
-let state = {};
+let state = [];
 /* function para começar o jogo */
 function startGame() {
-  state = {};
+  state = [];
   // music.play();
   showTextNode(1);
 }

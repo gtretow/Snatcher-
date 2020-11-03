@@ -720,7 +720,7 @@ const textNodes = [
       },
       {
         text: "Deixar para lá",
-        nextText: 2,
+        nextText: 124,
       },
     ],
   },
@@ -1540,6 +1540,290 @@ const textNodes = [
         requiredState: (currentState) => currentState.soco,
         setState: { soco: false },
         nextText: 105,
+      },
+    ],
+  },
+
+  {
+    id: 104,
+    text: "Lute",
+
+    options: [
+      {
+        text: "Esconder-se",
+        nextText: 107,
+      },
+
+      {
+        text: "Correr em direção ao rosto",
+        nextText: 108,
+      },
+
+      {
+        text: "Rasteira",
+        nextText: 106,
+      },
+    ],
+  },
+
+  {
+    id: 105,
+    text:
+      "Você lembrou do soco inglês e o utilizou para acertar a perna de Pigma. O porco tomba e derruba a arma",
+
+    options: [
+      {
+        text: "Acertar o rosto",
+        nextText: 110,
+      },
+
+      {
+        text: "Tentar pegar a arma",
+
+        nextText: 114,
+      },
+    ],
+  },
+
+  {
+    id: 106,
+    text:
+      "As pernas do porco são pesadas. Você acaba não conseguindo derruba-lo. A arma está mirada em você.",
+
+    options: [
+      {
+        text: "Puxar arma",
+        nextText: 109,
+      },
+
+      {
+        text: "Rolar",
+        nextText: 110,
+      },
+    ],
+  },
+
+  {
+    id: 107,
+    text:
+      "Você se esconde atrás das pilatras do prédio. Cuidado com os barris explosivo.",
+
+    options: [
+      {
+        text: "Chutar Barril",
+        nextText: 111,
+      },
+
+      {
+        text: "Correr em direção as pernas do inimigo",
+        nextText: 106,
+      },
+    ],
+  },
+
+  {
+    id: 108,
+    text:
+      "Ao se apróximar você percebe que Pigma é maior que parece. Você não consegue alcançar o rosto e acaba sendo derrubado. Com um sorriso no rosto, Pigma alerta que avisou sobre o seu destino. É seu último suspiro.",
+
+    options: [
+      {
+        text: "Reiniciar",
+        nextText: -1,
+      },
+    ],
+  },
+
+  {
+    id: 109,
+    text:
+      "Parece que o porco tem mais força que você. Você não foi capaz de desarma-lo e acabou encontrando seu fim. Acabou para você.",
+
+    options: [
+      {
+        text: "Reiniciar",
+        nextText: -1,
+      },
+    ],
+  },
+
+  {
+    id: 110,
+    text: "O porco está ferido, mas ainda não foi derrubado",
+
+    options: [
+      {
+        text: "Se esconder nas pilastras ",
+        nextText: 113,
+      },
+
+      {
+        text: "Correr em direção as pernas",
+        nextText: 112,
+      },
+
+      {
+        text: "Correr em direção ao rosto",
+        nextText: 108,
+      },
+    ],
+  },
+
+  {
+    id: 111,
+    text:
+      "Ao chutar o barril, Pigma atira sem pensar. A explosão é gigante e acaba pegando todos. É o fim da linha.",
+
+    options: [
+      {
+        text: "Reiniciar",
+        nextText: -1,
+      },
+    ],
+  },
+
+  {
+    id: 112,
+    text:
+      "Você deveria saber que a mesma tática não funcionaria duas vezes com o mesmo porco. Pigma estava preparado para o seu golpe e contra-atacou sem piedade. É o fim.",
+
+    options: [
+      {
+        text: "Reiniciar",
+        nextText: -1,
+      },
+    ],
+  },
+
+  {
+    id: 113,
+    text:
+      "Você se esconde atrás das pilatras do prédio. Cuidado com os barris explosivo.",
+
+    options: [
+      {
+        text: "Chutar o barril no porco",
+        nextText: 115,
+      },
+
+      {
+        text: "Correr em direção as pernas do porco",
+        nextText: 112,
+      },
+    ],
+  },
+
+  {
+    id: 114,
+    text: "A arma está em suas mãos. Finalize o porco.",
+
+    options: [
+      {
+        text: "ATIRAR!",
+        nextText: 116,
+      },
+    ],
+  },
+
+  {
+    id: 115,
+    text:
+      "Sem pensar, Pigma atira no Barril que vem em direção a ele e acaba sendo atingido pela explosão. A arma é atirada em direção ao chão",
+
+    options: [
+      {
+        text: "Pegue a arma",
+        nextText: 111,
+      },
+    ],
+  },
+
+  {
+    id: 116,
+    text:
+      "Seus últimos golpes desarmam o chefe de toda noção a realidade que lhe resta. Ele sabe que é seu fim. O resultado da briga acabou gerando faíscas e poças de gasolina. Você percebe o que ele quer, mas já é tarde. Se ele não pode ter a mulher que ama, ninguém mais tera. Foi necessário um isqueiro para transformar o local em um inferno. ",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 117,
+      },
+    ],
+  },
+
+  {
+    id: 117,
+    text:
+      "Você agarra a garota desacordada e corre em direção ao sistema de tubos que levam os minérios da fábrica direto para a parte externa do local. Vocês pulam no sistema de tubos e esperam pelo melhor.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 118,
+      },
+    ],
+  },
+
+  {
+    id: 118,
+    text: "A fábrica está em chamas",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 119,
+      },
+    ],
+  },
+
+  {
+    id: 120,
+    text:
+      "A garota desacordada dorme no banco passageiro do carro. Quem poderia imaginar? Ela poderia estar morta e nem ao menos tem consciência disso. O dia foi terrível, mas você conseguiu tirar algo bom disso tudo (embora esteja pensando em como vai explicar a situação quando a garota acordar).",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 121,
+      },
+    ],
+  },
+
+  {
+    id: 122,
+    text:
+      "Nunca se sabe como pequenos atos podem mudar uma vida inteira. Essa noite você mudou o rumo de uma vida, mas o que poderia ter acontecido se você tivesse feito outras escolhas?",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 123,
+      },
+    ],
+  },
+  {
+    id: 123,
+    text: "Só o tempo dirá.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 40,
+      },
+    ],
+  },
+
+  /* FIM 2*/
+  /* COMEÇO LINHA 3 */
+
+  {
+    id: 124,
+    text: "exemplo",
+  
+    options: [
+      {
+        text: "Continuar",
+        nextText: 2,
       },
     ],
   },
