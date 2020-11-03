@@ -16,19 +16,22 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(22, 21, 21);
-}
-.canvas {
-  border: 1px solid red;
+  background-color: rgb(2, 2, 2);
+  border-left: 10px solid rgb(64, 12, 88);
+  border-right: 10px solid rgb(64, 17, 92);
+  border-top: 10px solid rgb(64, 12, 88);
+  border-bottom: 10px solid rgb(64, 17, 92);
 }
 
 .container {
   width: 600px;
   max-width: 80%;
-  background-color: rgb(46, 45, 45);
+  background-color: rgb(39, 31, 41);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px 2px;
+  margin-top: 5%;
+  color: black;
 }
 
 .btn-grid {
@@ -39,8 +42,8 @@ body {
 }
 
 .btn {
-  background-color: hsl(0, 53%, 50%);
-  border: 1px solid hsl(0, 53%, 30%);
+  background-color: hsl(268, 85%, 37%);
+  border: 1px solid hsl(271, 75%, 27%);
   border-radius: 5px;
   padding: 5px 10px;
   color: black;
@@ -57,7 +60,7 @@ body {
   background-position: center;
   margin-bottom: 1em;
   animation: fadeIn ease 5s;
-  display: flex;
+  display: grid;
 }
 
 #imglogo {

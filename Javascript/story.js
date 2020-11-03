@@ -672,7 +672,7 @@ const textNodes = [
   {
     id: 46,
     text:
-      " O que você tem a perder? Rapidamente você salta no meio dos dois enquanto diz para o dono do bar que é a última vez que você o ajuda. ",
+      " O que você tem a perder? Talvez você só precisar descarregar sua raiva em alguém. Rapidamente você salta no meio dos três enquanto diz para o dono do bar que é a última vez que você o ajuda. ",
 
     options: [
       {
@@ -685,7 +685,7 @@ const textNodes = [
   {
     id: 47,
     text:
-      "Você pula no meio dos 3 bêbados e acaba com eles sem muita dificuldade. No meio da confusão você nota que um dos membros deixou cair uma foto de uma jovem garota e informações sobre onde encontrá-la. Você sabe onde isso vai dar. Sabe que essas gangues são conhecidas por tentativas de sequestro das famílias ricas da cidade. ",
+      "Você pula no meio dos três bêbados e acaba com eles sem muita dificuldade. No meio da confusão você nota que um dos membros deixou cair uma foto de uma jovem garota e informações sobre onde encontrá-la. Você sabe onde isso vai dar. Sabe que essas gangues são conhecidas por tentativas de sequestro das famílias ricas da cidade. ",
 
     options: [
       {
@@ -715,9 +715,377 @@ const textNodes = [
 
     options: [
       {
-        text: "Continuar",
+        text: "Ir atrás de pistas",
+        nextText: 50,
+      },
+      {
+        text: "Deixar para lá",
         nextText: 2,
       },
+    ],
+  },
+
+  {
+    id: 50,
+    text:
+      "Você está cansado, mas sabe que algo não está certo nessa história. Você deixa os membros da gangue para trás e vai em busca de informações sobre o que aconteceu. Você sabe exatamente como chegar lá.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 51,
+      },
+    ],
+  },
+
+  {
+    id: 51,
+    text:
+      "Ao chegar  no apartamento apontado pelo capanga, você nota um cheiro estranho por trás da porta.",
+
+    options: [
+      {
+        text: "Arrombar a porta",
+        nextText: 52,
+      },
+
+      {
+        text: "Bater na porta",
+        nextText: 53,
+      },
+    ],
+  },
+
+  {
+    id: 52,
+    text:
+      "Você sabe que esses lugares sempre são barulhentos. Sem perder tempo, você lança seu corpo contra a porta e encontra um corpo sem vida (aparentemente a mais de 2 horas). Alguém teve o trabalho de cobrir os rastros, mas porque?",
+
+    options: [
+      {
+        text: "Procure pistas sobre o acontecido",
+        nextText: 54,
+      },
+    ],
+  },
+
+  {
+    id: 53,
+    text:
+      "Ao bater na porta para chamar por alguém, você nota que a porta foi arrombada e decide entrar. Ao entrar no local, você percebe que o cheiro estranho era de um corpo que teria morrido há algumas horas.",
+
+    options: [
+      {
+        text: "Procure TODAS as pistas sobre o acontecido",
+        nextText: 54,
+      },
+    ],
+  },
+
+  {
+    id: 54,
+    text: "Escolha onde verificar",
+
+    options: [
+      {
+        text: "Cozinha",
+        nextText: 55,
+      },
+
+      {
+        text: "Chão do quarto",
+        nextText: 56,
+      },
+
+      {
+        text: "Corpo",
+        nextText: 57,
+      },
+
+      {
+        text: "Computador",
+        requiredState: (currentState) => currentState.chaves,
+        requiredState: (currentState) => currentState.anotacoes,
+        requiredState: (currentState) => currentState.senha,
+        setState: { chaves: false },
+        setState: { anotacoes: false },
+        setState: { senha: false },
+        nextText: 64,
+      },
+    ],
+  },
+
+  {
+    id: 55,
+    text: "A cozinha imunda e cheia de insetos não parece ter muita coisa.",
+
+    options: [
+      {
+        text: "Voltar para o quarto",
+        nextText: 54,
+      },
+
+      {
+        text: "Olhar armário",
+        nextText: 59,
+      },
+
+      {
+        text: "Olhar geladeira",
+        nextText: 60,
+      },
+    ],
+  },
+
+  {
+    id: 56,
+    text:
+      "Você encontra anotações sobre onde a garota seria encontrada. Nenhuma informação util, já que agora a garota já está nas mãos deles.",
+
+    options: [
+      {
+        text: "Continuar",
+        setState: { anotacoes: true },
+        nextText: 54,
+      },
+    ],
+  },
+
+  {
+    id: 57,
+    text: "O corpo não foi tocado. Ele simplesmete foi morto e deixado ai",
+
+    options: [
+      {
+        text: "Procurar no bolso",
+        nextText: 62,
+      },
+    ],
+  },
+
+  {
+    id: 58,
+    text: "O computador precisa de senha para ser utilizado",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 54,
+      },
+    ],
+  },
+
+  {
+    id: 59,
+    text: "Você não encontrou nada",
+
+    options: [
+      {
+        text: "Voltar para quarto",
+        nextText: 55,
+      },
+    ],
+  },
+
+  {
+    id: 60,
+    text:
+      "Claro. Como esperar organização de alguém que vive no meio do lixo? Você encontrou a carteira corpo dentro da gelaidera. Nela você encontra a senha para o computador",
+
+    options: [
+      {
+        text: "Continuar",
+        setState: { senha: true },
+        nextText: 54,
+      },
+    ],
+  },
+  /* achou carteira */
+  {
+    id: 61,
+    text: "Escolha onde verificar",
+
+    options: [
+      {
+        text: "Chão do quarto",
+        nextText: 63,
+      },
+
+      {
+        text: "Corpo",
+        nextText: 62,
+      },
+
+      {
+        text: "Computador",
+        requiredState: (currentState) => currentState.chaves,
+        requiredState: (currentState) => currentState.anotacoes,
+        requiredState: (currentState) => currentState.senha,
+        chaves: false,
+        anotacoes: false,
+        senha: false,
+        nextText: 64,
+      },
+    ],
+  },
+  /*achou chave do carro */
+  {
+    id: 62,
+    text: "Você encontra as chaves do carro.",
+
+    options: [
+      {
+        text: "Continuar",
+        setState: { chaves: true },
+        nextText: 55,
+      },
+    ],
+  },
+
+  {
+    id: 63,
+    text:
+      "Você encontra anotações sobre onde a garota seria encontrada. Nenhuma informação util, já que agora a garota já está nas mãos deles.",
+
+    options: [
+      {
+        text: "Continuar",
+        setState: { anotacoes: true },
+        nextText: 61,
+      },
+    ],
+  },
+
+  {
+    id: 64,
+    text:
+      "Ao logar no computador, você procura as ultimas horas da filmagem da câmera de segurança. Nela você descobre que o homem foi porto por um membro da própria gangue. 'The Orphans', como eles gostam de ser chamados. O vídeo revela que o capanga foi morto por não estar de acordo com o sequestro. Aparentemente, a garota sequestrada mora aqui na região. Por que motivo eles se dariam ao trabalho de sequestrar uma moradora de um bairro pobre? As coisas andam estranhas...",
+
+    options: [
+      {
+        text: "Sair do local",
+        nextText: 65,
+      },
+    ],
+  },
+
+  {
+    id: 65,
+    text:
+      "Recapitulando: Mensagens em redes sociais, o nome da garota e para onde levá-la após o sequestro. Parece que esse sequestro já aconteceu. O homem no quarto não foi morto como queima de arquivo, e sim porque era contra o sequestro. Aparentemente sequestraram uma moça que vive aqui, na parte mais pobre da cidade. Porque fariam isso? ",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 66,
+      },
+    ],
+  },
+
+  {
+    id: 66,
+    text:
+      "Sem pensar muito, você vai em direção ao carro do membro da Orphan. Ele não vai precisar mais de um carro. Você liga para o serviço médico e avisa sobre o corpo dele. Que ele seja mais sortudo na próxima vida.",
+
+    options: [
+      {
+        text: "Não posso perder tempo",
+        nextText: 67,
+      },
+    ],
+  },
+
+  {
+    id: 67,
+    text: "",
+
+    options: [
+      {
+        img: "./Imagens/andando.gif",
+        text: "Acelerar",
+        nextText: 68,
+      },
+    ],
+  },
+
+  {
+    id: 68,
+    text:
+      "As horas passam e você finalmente encontra a antiga fábrica. Um dos pontos secretos para onde os inimigos da  gangue Orphans são levados.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 69,
+      },
+    ],
+  },
+
+  {
+    id: 69,
+    text:
+      "Através de um buraco pela grade, você encontra uma passagem para dentro da fábrica. Você não pode voltar atrás. É hora de agir!",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 70,
+      },
+    ],
+  },
+
+  {
+    id: 70,
+    text: "Passe pelos guardas sem ser percebido",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 71,
+      },
+    ],
+  },
+
+  {
+    id: 71,
+    text:
+      "Seu objetivo é segundo andar. A sala principal está cheia de guardas.",
+
+    options: [
+      {
+        text: "Enfrentar guardas",
+        nextText: 73,
+      },
+
+      {
+        text: "Entrar no corredor esquerdo",
+        nextText: 74,
+      },
+
+      {
+        text: "Entrar no corredor direito",
+        nextText: 75,
+      },
+    ],
+  },
+
+  {
+    /* capturado */ id: 73,
+    text: "Você foi capturado.",
+
+    options: [
+      {
+        text: "Continuar",
+        nextText: 71,
+      },
+    ],
+  },
+
+  {
+    id: 74,
+    text: "A sala de máquinas é um local com pouca iluminação. Existem guardas no local.",
+  
+    options: [
       {
         text: "Continuar",
         nextText: 2,
@@ -726,9 +1094,9 @@ const textNodes = [
   },
 
   {
-    id: 50,
+    id: 75,
     text: "exemplo",
-
+  
     options: [
       {
         text: "Continuar",
