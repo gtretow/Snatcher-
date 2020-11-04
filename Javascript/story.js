@@ -664,6 +664,7 @@ const textNodes = [
 
   {
     id: 41,
+
     text:
       "O som do disparo de uma bala ecoa por toda rua logo após o seu disparo. Como ultimo suspiro o membro da gangue atirou e matou a garota. Você não tem tempo para lamentar. Você precisa fugir pois os tiros alertaram os outros membros de gangue que estavam na área. ",
 
@@ -754,6 +755,8 @@ const textNodes = [
 
   {
     id: 46,
+    img: "./Imagens/bar2.gif",
+    msc: "./sounds/bar.mp3",
     text:
       " O que você tem a perder? Você só precisa descarregar suas frustrações em alguém. Rapidamente você salta no meio dos três enquanto diz para o dono do bar que é a última vez que você o ajuda. ",
 
@@ -767,6 +770,8 @@ const textNodes = [
 
   {
     id: 47,
+    img: "./Imagens/bar2.gif",
+    msc: "./sounds/brigadebar.wav",
     text:
       "Você pula no meio dos três bêbados e acaba com eles sem muita dificuldade. No meio da confusão você nota que um dos membros deixou cair uma foto de uma jovem garota e informações sobre onde encontrá-la. Você sabe onde isso vai dar. Sabe que essas gangues são conhecidas por tentativas de sequestro das famílias ricas da cidade. ",
 
@@ -780,6 +785,8 @@ const textNodes = [
 
   {
     id: 48,
+    img: "./Imagens/bar2.gif",
+    msc: "./sounds/soco2.wav",
     text:
       "Você pressiona o sujeito que tinha as informações da garota mas ele jura que não tem nada a ver com aquilo. Sua única missão foi passar as informações para outros membros. Após uma curta conversa envolvendo dedos quebrados e dentes arrancados, você consegue informações sobre onde o encarregado do sequestro estaria.",
 
@@ -793,6 +800,8 @@ const textNodes = [
 
   {
     id: 49,
+    img: "./Imagens/bar2.gif",
+
     text:
       "Você sabe que provavelmente foi mais um sequestro que deu errado, afinal, as gangues não consegue chegar nas áreas onde os ricos vivem. Mesmo assim, você tem a opção de ir atrás disso. Vale a pena?",
 
@@ -810,6 +819,8 @@ const textNodes = [
 
   {
     id: 50,
+    img: "./Imagens/bar2.gif",
+    msc: "./sounds/doors.mp3",
     text:
       "Você está cansado, mas sabe que algo não está certo nessa história. Você deixa os membros da gangue para trás e vai em busca de informações sobre o que aconteceu. Você sabe exatamente como chegar lá.",
 
@@ -841,6 +852,7 @@ const textNodes = [
 
   {
     id: 52,
+
     text:
       "Você sabe que esses lugares sempre são barulhentos. Sem perder tempo, você lança seu corpo contra a porta e encontra um corpo sem vida (aparentemente a mais de 2 horas). Alguém teve o trabalho de cobrir os rastros, mas porque?",
 
@@ -854,8 +866,9 @@ const textNodes = [
 
   {
     id: 53,
+    msc: "./sounds/slam.wav",
     text:
-      "Ao bater na porta para chamar por alguém, você nota que a porta foi arrombada e decide entrar. Ao entrar no local, você percebe que o cheiro estranho era de um corpo que teria morrido há algumas horas.",
+      "Ao bater na porta para chamar por alguém, você nota que a porta foi arrombada e decide entrar rápidamente. Ao entrar no local, você percebe que o cheiro estranho era de um corpo que teria morrido há algumas horas.",
 
     options: [
       {
@@ -867,6 +880,7 @@ const textNodes = [
 
   {
     id: 54,
+    img: "./Imagens/quarto.png",
     text: "Escolha onde verificar",
 
     options: [
@@ -897,7 +911,8 @@ const textNodes = [
 
   {
     id: 55,
-    text: "A cozinha imunda e cheia de insetos não parece ter muita coisa.",
+    img: "./Imagens/quarto.png",
+    text: "A cozinha cheia de insetos não parece ter muita coisa.",
 
     options: [
       {
@@ -919,6 +934,7 @@ const textNodes = [
 
   {
     id: 56,
+    img: "./Imagens/quarto.png",
     text:
       "Você encontra anotações sobre onde a garota seria encontrada. Nenhuma informação util, já que agora a garota já está nas mãos deles.",
 
@@ -933,6 +949,7 @@ const textNodes = [
 
   {
     id: 57,
+    img: "./Imagens/quarto.png",
     text: "O corpo não foi tocado. Ele simplesmete foi morto e deixado ai",
 
     options: [
@@ -945,6 +962,7 @@ const textNodes = [
 
   {
     id: 58,
+    img: "./Imagens/quarto.png",
     text: "O computador precisa de senha para ser utilizado",
 
     options: [
@@ -957,6 +975,7 @@ const textNodes = [
 
   {
     id: 59,
+    img: "./Imagens/quarto.png",
     text: "Você não encontrou nada",
 
     options: [
@@ -969,8 +988,9 @@ const textNodes = [
 
   {
     id: 60,
+    img: "./Imagens/quarto.png",
     text:
-      "Claro. Como esperar organização de alguém que vive no meio do lixo? Você encontrou a carteira corpo dentro da gelaidera. Nela você encontra a senha para o computador",
+      "Claro. Como esperar organização de alguém que desse jeito? Você encontrou a carteira corpo dentro da gelaidera. Nela você encontra a senha para o computador",
 
     options: [
       {
@@ -983,6 +1003,7 @@ const textNodes = [
   /* achou carteira */
   {
     id: 61,
+    img: "./Imagens/quarto.png",
     text: "Escolha onde verificar",
 
     options: [
@@ -1009,6 +1030,7 @@ const textNodes = [
   /*achou chave do carro */
   {
     id: 62,
+    img: "./Imagens/quarto.png",
     text: "Você encontra as chaves do carro.",
 
     options: [
@@ -1022,6 +1044,7 @@ const textNodes = [
 
   {
     id: 63,
+    img: "./Imagens/quarto.png",
     text:
       "Você encontra anotações sobre onde a garota seria encontrada. Nenhuma informação util, já que agora a garota já está nas mãos deles.",
 
@@ -1036,6 +1059,7 @@ const textNodes = [
 
   {
     id: 64,
+    img: "./Imagens/quarto.png",
     text:
       "Ao logar no computador, você procura as ultimas horas da filmagem da câmera de segurança. Nela você descobre que o homem foi porto por um membro da própria gangue. 'The Orphans', como eles gostam de ser chamados. O vídeo revela que o capanga foi morto por não estar de acordo com o sequestro. Aparentemente, a garota sequestrada mora aqui na região. Por que motivo eles se dariam ao trabalho de sequestrar uma moradora de um bairro pobre? As coisas andam estranhas...",
 
@@ -1049,6 +1073,8 @@ const textNodes = [
 
   {
     id: 65,
+    msc: "./sounds/doors.mp3",
+
     text:
       "Recapitulando: Mensagens em redes sociais, o nome da garota e para onde levá-la após o sequestro. Parece que esse sequestro já aconteceu. O homem no quarto não foi morto como queima de arquivo, e sim porque era contra o sequestro. Aparentemente sequestraram uma moça que vive aqui, na parte mais pobre da cidade. Porque fariam isso? ",
 
