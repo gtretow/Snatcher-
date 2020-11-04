@@ -7,8 +7,8 @@ const music = document.getElementById("audio");
 const bgs = document.getElementById("bgs");
 
 /* element not aplication */
-music.volume = 0.1;
-bgs.volume = 0.6;
+music.volume = 0.4;
+bgs.volume = 0.5;
 /* o que o personagem tem, caso seja usado */
 let state = [];
 /* function para começar o jogo */

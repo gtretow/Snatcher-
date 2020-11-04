@@ -121,7 +121,7 @@ const textNodes = [
 
   {
     id: 8,
-    
+
     msc: "./sounds/andandochuva.mp3",
 
     text:
@@ -187,7 +187,7 @@ const textNodes = [
 
   {
     id: 12,
-    
+
     text:
       "Desesperada, a vitima diz que só queria se proteger. Você precisa tirá-la rápido de lá. A partir do momento em que o disparo foi efetuado, você sabia que a noite não seria fácil. Em breve o local estaria repleto de membros da The Rogues e você precisa aproveitar o tempo que tem. Vocês entram no carro da vítima.",
 
@@ -217,6 +217,7 @@ const textNodes = [
   {
     id: 14,
     img: "./Imagens/cidade.gif",
+    msc: "./sounds/revcock.wav",
 
     text:
       "Parado próximo de um semáforo, você percebe que tem algo errado. A cidade está normal. Como seria possível que o fim do mundo estivesse silencioso após a morte de um membro de gangue? Infelizmente a pergunta não permaneceu sem resposta por muito tempo.  Carros aparecem pelas ruas laterais e fecham completamente o seu caminho. A adrenalina já está atingindo ápice dentro de você. Você se sente invencível. Suas escolhes se resumem a duas: ",
@@ -236,6 +237,7 @@ const textNodes = [
 
   {
     id: 15,
+    img: "./Imagens/cidade.gif",
     text:
       "Apenas heróis em quadrinhos são invencíveis. Você sabe que não importa o quão bom você seja, não pode cuidar de todos eles. Pelo menos não aqui. ",
 
@@ -249,6 +251,7 @@ const textNodes = [
 
   {
     id: 16,
+    img: "./Imagens/cidade.gif",
     msc: "./sounds/gbattle.wav",
 
     text:
@@ -307,6 +310,8 @@ const textNodes = [
   {
     id: 147,
     img: "./Imagens/metropj.png",
+    msc: "./sounds/2shots.wav",
+
     text:
       "Pensando rápidamente você dispara contra o molotov e um dos homens armados. A explosão da bomba caseira acaba matando o inimigo com a bomba e o segundo homem armado. Você cuida rápidamente dos homens com as facas.",
 
@@ -349,6 +354,7 @@ const textNodes = [
   {
     id: 22,
     img: "./Imagens/subway.gif",
+
     text: "Os inimigos estão acumulando aos poucos",
 
     options: [
@@ -367,6 +373,7 @@ const textNodes = [
   {
     id: 23,
     img: "./Imagens/subway.gif",
+    msc: "./sounds/soco.wav",
     text: "Você deteu alguns inimigos, mas agora o vagão ficou lotado.",
 
     options: [
@@ -385,6 +392,7 @@ const textNodes = [
   {
     id: 24,
     img: "./Imagens/subway.gif",
+    msc: "./sounds/soco.wav",
     text: "Alguns inimigos cairam, ainda existem muitos, mas você ganhou tempo",
 
     options: [
@@ -408,6 +416,7 @@ const textNodes = [
   {
     id: 25,
     img: "./Imagens/subway.gif",
+    msc: "./sounds/soco.wav",
     text: "Os inimigos estão na sua cola",
 
     options: [
@@ -429,6 +438,7 @@ const textNodes = [
   {
     id: 26,
     img: "./Imagens/subway.gif",
+    msc: "./sounds/soco.wav",
     text: "Alguns poucos inimigos já estavam a sua espera no vagão",
 
     options: [
@@ -507,6 +517,7 @@ const textNodes = [
   {
     id: 31,
     img: "./Imagens/metro.png",
+    msc: "./sounds/correndo.wav",
     text:
       "Ao chegar na conexão para a linha amarela, seus inimigos começam a se aglomerar nas portas de saída dos vagões. Você está muito cansado para lutar, mas felizmente os seus planos costumam ser infalíveis e como você previu, a polícia logo apareceu para ajudar no confronto.",
 
@@ -521,6 +532,7 @@ const textNodes = [
   {
     id: 32,
     img: "./Imagens/metro.png",
+    msc: "./sounds/heart.wav",
     text:
       "Adrenalina, sangue e suor. Você não consegue mais distinguir o certo do errado. Inimigos sendo mortos brutalmente e inocentes sendo machucados. A pessoa que tentava fazer o certo morreu no momento em que Lígia foi morta",
 
@@ -535,6 +547,7 @@ const textNodes = [
   {
     id: 33,
     img: "./Imagens/metro.png",
+    msc: "./sounds/2shots.wav",
     text:
       "Apenas 10 minutos foram necessários para tudo acabar. Há quem diga que a brutalidade policial ganhou. Mas o que é brutalidade em uma cidade como Astra? Entre feridos, mortos e presos, você se encontra cansado. Lígia respira aliviada pois sabe que acabou. A garota treme de medo enquanto tenta planejar uma maneira de buscar sua filha e se mudar dessa cidade infernal amanhã mesmo. ",
 
