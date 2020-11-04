@@ -1826,7 +1826,7 @@ const textNodes = [
     options: [
       {
         text: "Continuar",
-        nextText: 119,
+        nextText: 120,
       },
     ],
   },
@@ -1839,7 +1839,7 @@ const textNodes = [
     options: [
       {
         text: "Continuar",
-        nextText: 121,
+        nextText: 122,
       },
     ],
   },
