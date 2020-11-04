@@ -29,8 +29,7 @@ body {
   background-color: rgb(39, 31, 41);
   padding: 10px;
   border-radius: 5px;
-  
- 
+  margin: auto;
   margin-top: 5%;
   color: rgb(173, 170, 170);
 }
@@ -57,14 +56,16 @@ body {
 
 #images {
   height: 500px;
-  width: 500px;
+  /*   width: 500px;
+ */
   background-size: cover;
   margin-bottom: 3em;
   animation: fadeIn ease 5s;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: center;
-  
-  
+  border: 1px solid red;
 }
 
 #imglogo {

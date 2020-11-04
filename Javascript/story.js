@@ -1702,7 +1702,7 @@ const textNodes = [
     id: 105,
     text:
       "Você lembrou do soco inglês e o utilizou para acertar a perna de Pigma. O porco tomba e derruba a arma",
-
+     music: "./sounds/soco.wav"
     options: [
       {
         text: "Acertar o rosto",
@@ -1757,7 +1757,7 @@ const textNodes = [
     id: 108,
     text:
       "Ao se apróximar você percebe que Pigma é maior que parece. Você não consegue alcançar o rosto e acaba sendo derrubado. Com um sorriso no rosto, Pigma alerta que avisou sobre o seu destino. É seu último suspiro.",
-
+    
     options: [
       {
         text: "Reiniciar",
@@ -1805,6 +1805,7 @@ const textNodes = [
     id: 111,
     text:
       "Ao chutar o barril, Pigma atira sem pensar. A explosão é gigante e acaba pegando todos. É o fim da linha.",
+      msc: "./sounds/explosao.mp3"
 
     options: [
       {
@@ -1818,6 +1819,7 @@ const textNodes = [
     id: 112,
     text:
       "Você deveria saber que a mesma tática não funcionaria duas vezes com o mesmo porco. Pigma estava preparado para o seu golpe e contra-atacou sem piedade. É o fim.",
+      msc: "./sounds/seeya.wav"
 
     options: [
       {
@@ -1862,6 +1864,8 @@ const textNodes = [
     id: 115,
     text:
       "Sem pensar, Pigma atira no Barril que vem em direção a ele e acaba sendo atingido pela explosão. A arma é atirada em direção ao chão",
+      msc: "./sounds/explosao.mp3"
+
 
     options: [
       {
@@ -1913,7 +1917,7 @@ const textNodes = [
     id: 120,
     text:
       "A garota desacordada dorme no banco passageiro do carro. Quem poderia imaginar? Ela poderia estar morta e nem ao menos tem consciência disso. O dia foi terrível, mas você conseguiu tirar algo bom disso tudo (embora esteja pensando em como vai explicar a situação quando a garota acordar).",
-
+    img: "./Imagens/andando.gif"
     options: [
       {
         text: "Continuar",
@@ -1926,6 +1930,7 @@ const textNodes = [
     id: 122,
     text:
       "Nunca se sabe como pequenos atos podem mudar uma vida inteira. Essa noite você mudou o rumo de uma vida, mas o que poderia ter acontecido se você tivesse feito outras escolhas?",
+      img: "./Imagens/andando.gif"
 
     options: [
       {
@@ -1937,6 +1942,7 @@ const textNodes = [
   {
     id: 123,
     text: "Só o tempo dirá.",
+    img: "./Imagens/andando.gif"
 
     options: [
       {
@@ -1979,7 +1985,7 @@ const textNodes = [
     id: 127,
     text:
       "Ao se aproximar da saída da garagem você escuta um grito. Uma mulher grita por socorro enquanto está sendo roubada a mão armada por um membro da gangue intitulada “The Warriors”. Todos na cidade conhecem a gangue e sabem que não interagir com eles é a melhor opção. Você não é como todos eles e pode decidir balançar um pouco com a ordem das coisas. Mas você sabe que as consequências de um ato altruísta pode não ser a melhor opção a longo prazo.",
-
+     msc:"./sounds/gscream.wav"
     options: [
       {
         text: "Ajudar",
