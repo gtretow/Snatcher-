@@ -656,7 +656,7 @@ const textNodes = [
 
     options: [
       {
-        text: "Créditos",
+        text: "Reiniciar",
         nextText: -1,
       },
     ],
