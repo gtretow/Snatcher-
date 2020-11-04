@@ -1509,7 +1509,7 @@ const textNodes = [
 
     options: [
       {
-        text: "Lutar",
+        text: "Ficar",
         nextText: 101,
       },
 
@@ -1528,7 +1528,7 @@ const textNodes = [
     options: [
       {
         text: "Continuar",
-        nextText: 101,
+        nextText: 100,
       },
     ],
   },
