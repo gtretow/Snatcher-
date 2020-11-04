@@ -4,9 +4,11 @@ const images = document.getElementById("background");
 const gamelogo = document.getElementById("imglogo");
 const gamestart = document.getElementById("game");
 const music = document.getElementById("audio");
+const bgs = document.getElementById("bgs");
 
 /* element not aplication */
-music.volume = 0.2;
+music.volume = 0.1;
+bgs.volume = 0.6;
 /* o que o personagem tem, caso seja usado */
 let state = [];
 /* function para começar o jogo */
@@ -75,7 +77,7 @@ function selectOption(option) {
 /* sfx tela inicial */
 const gunshot = new Audio();
 gunshot.src = "./sounds/gunshot.wav";
-gunshot.volume = 0.7;
+gunshot.volume = 0.4;
 
 /*clicar na imagem e remover o resto */
 document.getElementById("imglogo").addEventListener("click", () => {
@@ -88,13 +90,6 @@ document.getElementById("imglogo").addEventListener("click", () => {
 });
 
 startGame();
-
-/*Instância todos os sons utilizados*/
-/* const backgroundSound = new Audio();
-backgroundSound.src = "./sounds/tristram.mp3";
-backgroundSound.volume = 0.2;
-const quitSound = new Audio();
-quitSound.src = "./sounds/angry-ghost.wav"; */
 
 /* window.onload = () => {
   "onload", backgroundSound.play(); }; */

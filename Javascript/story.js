@@ -121,6 +121,8 @@ const textNodes = [
 
   {
     id: 8,
+    
+    msc: "./sounds/andandochuva.mp3",
 
     text:
       "Ruas sujas, poucas luz e animais estranhos que um dia foram conhecidos como cachorros. Você encontra uma garagem a céu aberto e decide pular a grade. Na esperança de encontrar um amigo policial, um táxi, ou até mesmo um ladrão de carros que possa te dar uma carona. Que diferença faz? Provavelmente seria um plano entre o ladrão e o dono do carro para ganhar dinheiro com seguro.",
@@ -153,6 +155,7 @@ const textNodes = [
 
   {
     id: 10,
+
     text:
       "Você se aproxima lentamente por trás do assaltante e pede para que a vítima mantenha a calma. Ele ainda não te percebeu. Você pode escolher o melhor método para lidar com ele.",
 
@@ -184,8 +187,9 @@ const textNodes = [
 
   {
     id: 12,
+    
     text:
-      "A vítima, desesperada, diz que só queria se proteger. Você precisa tirá-la rápido de lá. A partir do momento em que o disparo foi efetuado, você sabia que a noite não seria fácil. Em breve o local estaria repleto de membros da The Rogues e você precisa aproveitar o tempo que tem. Vocês entram no carro da vítima.",
+      "Desesperada, a vitima diz que só queria se proteger. Você precisa tirá-la rápido de lá. A partir do momento em que o disparo foi efetuado, você sabia que a noite não seria fácil. Em breve o local estaria repleto de membros da The Rogues e você precisa aproveitar o tempo que tem. Vocês entram no carro da vítima.",
 
     options: [
       {
@@ -197,6 +201,7 @@ const textNodes = [
 
   {
     id: 13,
+    img: "./Imagens/carrun.gif",
 
     text:
       "No caminho para fora da cidade vocês conversam brevemente. A mulher (que se chama Lígia) conta que estava trabalhando em seu emprego noturno. Ela precisa do dinheiro pois tem uma criança em sua proteção. O pai abandonou a família para ganhar dinheiro em outro país. Você começa a questionar suas escolhas, afinal, ao intervir no assalto, o resultado de suas ações colocou a mulher em risco de vida. Você pode ser o responsável por uma criança acordar sem família nas próximas horas.",
