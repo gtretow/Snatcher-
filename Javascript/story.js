@@ -717,13 +717,13 @@ const textNodes = [
     options: [
       {
         text: "Continuar",
-        nextText: 44,
+        nextText: 998,
       },
     ],
   },
 
   {
-    id: 44,
+    id: 998,
     text:
       "Você consegue passar por todos fácilmente. É muito mais fácil lutar quando você luta sem precisar proteger alguém.",
 
