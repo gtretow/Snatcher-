@@ -1459,7 +1459,7 @@ const textNodes = [
   {
     id: 87,
     text: "O guarda ameaça entrar e te matar caso você faça isso mais uma vez.",
-    sound: "./sounds/shutup.mp3",
+    msc: "./sounds/shutup.mp3",
 
     options: [
       {
@@ -1556,7 +1556,7 @@ const textNodes = [
     id: 95,
     text:
       "Pigm é o chefe da gangue. Aparentemente ele saiu de seu buraco para encontrar a garota pessoalmente. Mas por quê?",
-    images: "./Imagens/pigma.png",
+    img: "./Imagens/pigma.png",
 
     options: [
       {
@@ -1702,7 +1702,7 @@ const textNodes = [
     id: 105,
     text:
       "Você lembrou do soco inglês e o utilizou para acertar a perna de Pigma. O porco tomba e derruba a arma",
-    music: "./sounds/soco.wav",
+    msc: "./sounds/soco.wav",
     options: [
       {
         text: "Acertar o rosto",
@@ -2059,7 +2059,7 @@ const textNodes = [
     id: 132,
     text:
       "Entre pratos de comida e xícaras quentes de café, vocês acabam notando que ambos viveram vidas muito semelhantes. Ambos vem de uma família controladora, que sempre queria decidir o que era melhor para quem. Na verdade, faz muito tempo que você não conhece alguém assim.",
-    img: "./Imanges/dinner.png",
+    img: "./Imangens/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2072,7 +2072,7 @@ const textNodes = [
     id: 133,
     text:
       "Tudo está ótimo, mas o momento só dura até o um celular tocar (quem ainda usa celular nesses tempos? Alguém aqui está sendo rastreada). É a polícia. Após uma breve conversa a mulher é informada que há algum tempo o carro da filha foi encontrado destruído e a garota estava desaparecida.",
-    img: "./Imanges/dinner.png",
+    img: "./Imangens/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2085,7 +2085,7 @@ const textNodes = [
     id: 135,
     text:
       "O ar fica carregado. Entre choros de desespero e tentativas para acalmar uma mãe sem esperanças, você acaba pedindo uma foto da garota. ",
-    img: "./Imanges/dinner.png",
+    img: "./Imangens/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2098,7 +2098,7 @@ const textNodes = [
     id: 136,
     text:
       "No momento em que a mãe mostra a foto, você lamenta não poder voltar no tempo. Todas as descrições da menina do bar batem com a foto. Mas por quê sequestrariam uma mulher da zona pobre da cidade? Você lamenta as escolhas erradas que fez nessa noite.",
-    img: "./Imanges/dinner.png",
+    img: "./Imangens/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2111,7 +2111,7 @@ const textNodes = [
     id: 137,
     text:
       "Você decide tenta ajudar e explica para a mulher que pode ter uma pista de onde a garota esteja.",
-    img: "./Imanges/dinner.png",
+    img: "./Imangens/dinner.png",
     options: [
       {
         text: "Investigar",
@@ -2124,7 +2124,7 @@ const textNodes = [
     id: 138,
     text:
       "Após ser questionado sobre como isso seria possível, você responde a verdade. Você teve a chance de prevenir isso mas acabou deixando a chance passar. Você explica o ocorrido.",
-    img: "./Imanges/dinner.png",
+    img: "./Imangens/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2137,7 +2137,7 @@ const textNodes = [
     id: 139,
     text:
       "A mulher está arrasada. Ao escutar todas as palavras que ela tem a dizer sobre você e seu caráter, você decide procurar pistas.",
-    img: "./Imanges/dinner.png",
+    img: "./Imangens/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2150,7 +2150,7 @@ const textNodes = [
     id: 141,
     text:
       "Depois de 4 horas você consegue rastrear os bêbados do bar e usa as informações deles para chegar em um apartamento.",
-    img: "./Imanges/quarto.png",
+    img: "./Imangens/quarto.png",
     options: [
       {
         text: "Continuar",
@@ -2163,7 +2163,7 @@ const textNodes = [
     id: 142,
     text:
       "A polícia está no local. Já é tarde demais. Os inexperientes investigadores da polícia estão tomando conta do lugar e você não tem a autorização necessária para entrar. Parece que houve um assassinato lá dentro e a casa já foi revirada pela própria polícia para procurar pistas.",
-    img: "./Imanges/quarto.png",
+    img: "./Imangens/quarto.png",
     options: [
       {
         text: "Continuar",
@@ -2176,7 +2176,7 @@ const textNodes = [
     id: 143,
     text:
       "Infeliz por descobrir o resultado de seus atos, você caminha pelas sombras da cidade, bêbado e sem esperanças.",
-    img: "./Imanges/quarto.png",
+    img: "./Imangens/quarto.png",
     options: [
       {
         text: "Continuar",
