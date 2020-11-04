@@ -1088,6 +1088,7 @@ const textNodes = [
 
   {
     id: 66,
+
     text:
       "Sem pensar muito, você vai em direção ao carro do membro da Orphan. Ele não vai precisar mais de um carro. Você liga para o serviço médico e avisa sobre o corpo dele. Que ele seja mais sortudo na próxima vida.",
 
@@ -1101,11 +1102,11 @@ const textNodes = [
 
   {
     id: 67,
+    msc: "./sounds/carengine.wav",
     text: "",
 
     options: [
       {
-        img: "./Imagens/andando.gif",
         text: "Acelerar",
         nextText: 68,
       },
@@ -1114,6 +1115,7 @@ const textNodes = [
 
   {
     id: 68,
+    img: "./Imagens/fabrica.jpg",
     text:
       "As horas passam e você finalmente encontra a antiga fábrica. Um dos pontos secretos para onde os inimigos da  gangue Orphans são levados.",
 
@@ -1127,6 +1129,8 @@ const textNodes = [
 
   {
     id: 69,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "Através de um buraco pela grade, você encontra uma passagem para dentro da fábrica. Você não pode voltar atrás. É hora de agir!",
 
@@ -1140,6 +1144,8 @@ const textNodes = [
 
   {
     id: 70,
+    img: "./Imagens/fabrica.jpg",
+
     text: "Passe pelos guardas sem ser percebido",
 
     options: [
@@ -1152,6 +1158,8 @@ const textNodes = [
 
   {
     /* escolha para onde ir */ id: 71,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "Seu objetivo é o segundo andar. A sala principal está cheia de guardas.",
 
@@ -1175,6 +1183,8 @@ const textNodes = [
 
   {
     /* capturado */ id: 73,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "Parece que você foi surpreendido por mais guardas do que você pode dar conta. Você foi capturado.",
 
@@ -1188,6 +1198,8 @@ const textNodes = [
 
   {
     id: 74,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "A sala de máquinas é um local com pouca iluminação. Existem guardas no local.",
 
@@ -1211,6 +1223,8 @@ const textNodes = [
 
   {
     id: 75,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "Ao nocautear os guardas você consegue um soco inglês que um deles carregava",
 
@@ -1225,6 +1239,8 @@ const textNodes = [
 
   {
     id: 76,
+    img: "./Imagens/fabrica.jpg",
+
     text: "Você está quase lá! Existem alguns guardas em frente a escadaria.",
 
     options: [
@@ -1242,6 +1258,8 @@ const textNodes = [
 
   {
     id: 999,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "Você conseguiu! Você sobe as escadas com calma e chega na sala principal onde acredita que a vítima esteja. Você entra e rápidamente tranca a porta com uma barra de ferro",
 
@@ -1255,6 +1273,8 @@ const textNodes = [
 
   {
     id: 77,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "O corredor não tem muito movimento. Como a vítima do sequestro é uma garota pobre, eles não esperam que algum louco tente alguma coisa.",
 
@@ -1278,6 +1298,8 @@ const textNodes = [
 
   {
     id: 78,
+    img: "./Imagens/fabrica.jpg",
+
     text: "Você está quase lá. Só há um guarda na escadaria próxima.",
 
     options: [
@@ -1295,6 +1317,8 @@ const textNodes = [
 
   {
     id: 79,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "Você conseguiu! Você sobe as escadas com calma e chega na sala principal onde acredita que a vítima esteja. Você entra e rápidamente tranca a porta com uma barra de ferro",
 
@@ -1308,6 +1332,8 @@ const textNodes = [
 
   {
     id: 80,
+    img: "./Imagens/fabrica.jpg",
+
     text:
       "Você é bom. Muito bom. Mas até os melhores cometem erros. Você foi capturado. Após alguns socos no estomago para descobrir quem você é e o motivo de estar na fábrica, os membros da Orphans te jogam dentro de uma sala e vão atrás do chefe da gangue para descobrir o que fazer com você.",
 
