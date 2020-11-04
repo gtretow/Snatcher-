@@ -590,6 +590,7 @@ const textNodes = [
   {
     id: 36,
     img: "./Imagens/taxi.jpg",
+
     text:
       "Ao chegar em casa você encontra um gato próximo a sua porta. Deseja convidá-lo para entrar?",
 
@@ -621,6 +622,8 @@ const textNodes = [
 
   {
     id: 38,
+    msc: "./sounds/cat.wav",
+    img: "./Imagens/room.gif",
     text:
       "Depois de um dia como esses, você bem que precisa de um amigo para conversar. Você abre a porta para o gato e ele aceita seu convite. Em meio a tanto caos, pelo menos uma coisa essa cidade conseguiu te oferecer: Alguém para conversar.",
 
@@ -634,6 +637,8 @@ const textNodes = [
 
   {
     id: 39,
+    msc: "./sounds/cat.wav",
+    img: "./Imagens/room.gif",
     text:
       "Você cumprimenta o gato e entra dentro de casa. O gato observa e logo depois decide tomar o seu caminho. Provavelmente ele pertence a alguém. Embora sejam animais incríveis, você só deseja um pouco de paz.",
 
