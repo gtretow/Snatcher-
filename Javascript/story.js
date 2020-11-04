@@ -1459,6 +1459,7 @@ const textNodes = [
   {
     id: 87,
     text: "O guarda ameaça entrar e te matar caso você faça isso mais uma vez.",
+    sound: "./sounds/shutup.mp3",
 
     options: [
       {
@@ -1555,6 +1556,7 @@ const textNodes = [
     id: 95,
     text:
       "Pigm é o chefe da gangue. Aparentemente ele saiu de seu buraco para encontrar a garota pessoalmente. Mas por quê?",
+    images: "./Imagens/pigma.png",
 
     options: [
       {
@@ -1846,6 +1848,7 @@ const textNodes = [
   {
     id: 114,
     text: "A arma está em suas mãos. Finalize o porco.",
+    sound: "./sounds/seeya.mp3",
 
     options: [
       {
@@ -2181,6 +2184,7 @@ const textNodes = [
     id: 144,
     text:
       "Como o fim de um filme trágico, você acaba não percebendo as luzes fortes que vem da estrada e é atropelado.",
+    sound: "./sounds/batida.wav",
 
     options: [
       {
