@@ -1,7 +1,7 @@
 # Snatcher
 *Snatcher* is a game built in HTML, CSS, and JavaScript.
 
-> Click [HERE](https://gtretow.github.io/Snatcher-/)to play!
+> Click [HERE](https://gtretow.github.io/Snatcher-/) to play!
 
 ## INSTALLATION
 * Clone or download this project
