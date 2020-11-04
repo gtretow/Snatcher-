@@ -1702,7 +1702,7 @@ const textNodes = [
     id: 105,
     text:
       "Você lembrou do soco inglês e o utilizou para acertar a perna de Pigma. O porco tomba e derruba a arma",
-     music: "./sounds/soco.wav"
+    music: "./sounds/soco.wav",
     options: [
       {
         text: "Acertar o rosto",
@@ -1757,7 +1757,7 @@ const textNodes = [
     id: 108,
     text:
       "Ao se apróximar você percebe que Pigma é maior que parece. Você não consegue alcançar o rosto e acaba sendo derrubado. Com um sorriso no rosto, Pigma alerta que avisou sobre o seu destino. É seu último suspiro.",
-    
+
     options: [
       {
         text: "Reiniciar",
@@ -1805,7 +1805,7 @@ const textNodes = [
     id: 111,
     text:
       "Ao chutar o barril, Pigma atira sem pensar. A explosão é gigante e acaba pegando todos. É o fim da linha.",
-      msc: "./sounds/explosao.mp3"
+    msc: "./sounds/explosao.mp3",
 
     options: [
       {
@@ -1819,7 +1819,7 @@ const textNodes = [
     id: 112,
     text:
       "Você deveria saber que a mesma tática não funcionaria duas vezes com o mesmo porco. Pigma estava preparado para o seu golpe e contra-atacou sem piedade. É o fim.",
-      msc: "./sounds/seeya.wav"
+    msc: "./sounds/seeya.wav",
 
     options: [
       {
@@ -1864,8 +1864,7 @@ const textNodes = [
     id: 115,
     text:
       "Sem pensar, Pigma atira no Barril que vem em direção a ele e acaba sendo atingido pela explosão. A arma é atirada em direção ao chão",
-      msc: "./sounds/explosao.mp3"
-
+    msc: "./sounds/explosao.mp3",
 
     options: [
       {
@@ -1917,7 +1916,7 @@ const textNodes = [
     id: 120,
     text:
       "A garota desacordada dorme no banco passageiro do carro. Quem poderia imaginar? Ela poderia estar morta e nem ao menos tem consciência disso. O dia foi terrível, mas você conseguiu tirar algo bom disso tudo (embora esteja pensando em como vai explicar a situação quando a garota acordar).",
-    img: "./Imagens/andando.gif"
+    img: "./Imagens/andando.gif",
     options: [
       {
         text: "Continuar",
@@ -1930,7 +1929,7 @@ const textNodes = [
     id: 122,
     text:
       "Nunca se sabe como pequenos atos podem mudar uma vida inteira. Essa noite você mudou o rumo de uma vida, mas o que poderia ter acontecido se você tivesse feito outras escolhas?",
-      img: "./Imagens/andando.gif"
+    img: "./Imagens/andando.gif",
 
     options: [
       {
@@ -1942,7 +1941,7 @@ const textNodes = [
   {
     id: 123,
     text: "Só o tempo dirá.",
-    img: "./Imagens/andando.gif"
+    img: "./Imagens/andando.gif",
 
     options: [
       {
@@ -1985,7 +1984,7 @@ const textNodes = [
     id: 127,
     text:
       "Ao se aproximar da saída da garagem você escuta um grito. Uma mulher grita por socorro enquanto está sendo roubada a mão armada por um membro da gangue intitulada “The Warriors”. Todos na cidade conhecem a gangue e sabem que não interagir com eles é a melhor opção. Você não é como todos eles e pode decidir balançar um pouco com a ordem das coisas. Mas você sabe que as consequências de um ato altruísta pode não ser a melhor opção a longo prazo.",
-     msc:"./sounds/gscream.wav"
+    msc: "./sounds/gscream.wav",
     options: [
       {
         text: "Ajudar",
@@ -2003,7 +2002,7 @@ const textNodes = [
     id: 128,
     text:
       "O bandido foi facilmente derrotado. Ele não conseguiu nem ao menos levantar o punho antes de ser apagado por você. A mulher tenta agradecer enquanto segura o nervosismo.",
-
+    msc: "./sounds/soco2.wav",
     options: [
       {
         text: "Continuar",
@@ -2060,7 +2059,7 @@ const textNodes = [
     id: 132,
     text:
       "Entre pratos de comida e xícaras quentes de café, vocês acabam notando que ambos viveram vidas muito semelhantes. Ambos vem de uma família controladora, que sempre queria decidir o que era melhor para quem. Na verdade, faz muito tempo que você não conhece alguém assim.",
-
+    img: "./Imanges/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2073,7 +2072,7 @@ const textNodes = [
     id: 133,
     text:
       "Tudo está ótimo, mas o momento só dura até o um celular tocar (quem ainda usa celular nesses tempos? Alguém aqui está sendo rastreada). É a polícia. Após uma breve conversa a mulher é informada que há algum tempo o carro da filha foi encontrado destruído e a garota estava desaparecida.",
-
+    img: "./Imanges/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2086,7 +2085,7 @@ const textNodes = [
     id: 135,
     text:
       "O ar fica carregado. Entre choros de desespero e tentativas para acalmar uma mãe sem esperanças, você acaba pedindo uma foto da garota. ",
-
+    img: "./Imanges/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2099,7 +2098,7 @@ const textNodes = [
     id: 136,
     text:
       "No momento em que a mãe mostra a foto, você lamenta não poder voltar no tempo. Todas as descrições da menina do bar batem com a foto. Mas por quê sequestrariam uma mulher da zona pobre da cidade? Você lamenta as escolhas erradas que fez nessa noite.",
-
+    img: "./Imanges/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2112,7 +2111,7 @@ const textNodes = [
     id: 137,
     text:
       "Você decide tenta ajudar e explica para a mulher que pode ter uma pista de onde a garota esteja.",
-
+    img: "./Imanges/dinner.png",
     options: [
       {
         text: "Investigar",
@@ -2125,7 +2124,7 @@ const textNodes = [
     id: 138,
     text:
       "Após ser questionado sobre como isso seria possível, você responde a verdade. Você teve a chance de prevenir isso mas acabou deixando a chance passar. Você explica o ocorrido.",
-
+    img: "./Imanges/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2138,7 +2137,7 @@ const textNodes = [
     id: 139,
     text:
       "A mulher está arrasada. Ao escutar todas as palavras que ela tem a dizer sobre você e seu caráter, você decide procurar pistas.",
-
+    img: "./Imanges/dinner.png",
     options: [
       {
         text: "Continuar",
@@ -2151,7 +2150,7 @@ const textNodes = [
     id: 141,
     text:
       "Depois de 4 horas você consegue rastrear os bêbados do bar e usa as informações deles para chegar em um apartamento.",
-
+    img: "./Imanges/quarto.png",
     options: [
       {
         text: "Continuar",
@@ -2164,7 +2163,7 @@ const textNodes = [
     id: 142,
     text:
       "A polícia está no local. Já é tarde demais. Os inexperientes investigadores da polícia estão tomando conta do lugar e você não tem a autorização necessária para entrar. Parece que houve um assassinato lá dentro e a casa já foi revirada pela própria polícia para procurar pistas.",
-
+    img: "./Imanges/quarto.png",
     options: [
       {
         text: "Continuar",
@@ -2177,7 +2176,7 @@ const textNodes = [
     id: 143,
     text:
       "Infeliz por descobrir o resultado de seus atos, você caminha pelas sombras da cidade, bêbado e sem esperanças.",
-
+    img: "./Imanges/quarto.png",
     options: [
       {
         text: "Continuar",
