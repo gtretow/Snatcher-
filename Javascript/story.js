@@ -126,7 +126,7 @@ const textNodes = [
 
     text:
       "Ruas sujas, poucas luz e animais estranhos que um dia foram conhecidos como cachorros. Você encontra uma garagem a céu aberto e decide pular a grade. Na esperança de encontrar um amigo policial, um táxi, ou até mesmo um ladrão de carros que possa te dar uma carona. Que diferença faz? Provavelmente seria um plano entre o ladrão e o dono do carro para ganhar dinheiro com seguro.",
-    msc: "./sounds/andandochuva.mp3",
+   
     options: [
       {
         text: "Continuar",
@@ -2059,9 +2059,10 @@ const textNodes = [
 
   {
     id: 132,
+    img: "./Imangens/smoke1.gif",
     text:
       "Entre pratos de comida e xícaras quentes de café, vocês acabam notando que ambos viveram vidas muito semelhantes. Ambos vem de uma família controladora, que sempre queria decidir o que era melhor para quem. Na verdade, faz muito tempo que você não conhece alguém assim.",
-    img: "./Imangens/smoke.gif",
+    
     options: [
       {
         text: "Continuar",
@@ -2072,9 +2073,10 @@ const textNodes = [
 
   {
     id: 133,
+    img: "./Imangens/smoke.gif",
     text:
       "Tudo está ótimo, mas o momento só dura até o um celular tocar (quem ainda usa celular nesses tempos? Alguém aqui está sendo rastreada). É a polícia. Após uma breve conversa a mulher é informada que há algum tempo o carro da filha foi encontrado destruído e a garota estava desaparecida.",
-    img: "./Imangens/smoke.gif",
+    
     options: [
       {
         text: "Continuar",
