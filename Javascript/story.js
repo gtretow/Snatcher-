@@ -267,7 +267,7 @@ const textNodes = [
 
   {
     id: 17,
-    img: "./Imagens/metropj.png",
+    img: "./Imagens/subway.gif",
     msc: "./sounds/correndo.wav",
 
     text:
@@ -283,7 +283,7 @@ const textNodes = [
 
   {
     id: 18,
-    img: "./Imagens/metropj.png",
+    img: "./Imagens/subway.gif",
     msc: "./sounds/metro2.wav",
     text:
       "Você tem 2 balas. Derrote TODOS os inimigos! Dois homens armados com revólveres. Dois armados com facas e 1 homem com armado molotov. Pense rápido",
@@ -309,7 +309,7 @@ const textNodes = [
   /*obs aqui */
   {
     id: 147,
-    img: "./Imagens/metropj.png",
+    img: "./Imagens/subway.gif",
     msc: "./sounds/2shots.wav",
 
     text:
