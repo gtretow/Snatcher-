@@ -622,7 +622,7 @@ const textNodes = [
   {
     id: 38,
     msc: "./sounds/cat.wav",
-    img: "./Imagens/room.gif",
+    img: "./Imagens/cidade1.gif",
     text:
       "Depois de um dia como esses, você bem que precisa de um amigo para conversar. Você abre a porta para o gato e ele aceita seu convite. Em meio a tanto caos, pelo menos uma coisa essa cidade conseguiu te oferecer: Alguém para conversar.",
 
@@ -637,7 +637,7 @@ const textNodes = [
   {
     id: 39,
     msc: "./sounds/cat.wav",
-    img: "./Imagens/room.gif",
+    img: "./Imagens/cidade1.gif",
     text:
       "Você cumprimenta o gato e entra dentro de casa. O gato observa e logo depois decide tomar o seu caminho. Provavelmente ele pertence a alguém. Embora sejam animais incríveis, você só deseja um pouco de paz.",
 
@@ -1985,6 +1985,7 @@ const textNodes = [
     text:
       "Ao se aproximar da saída da garagem você escuta um grito. Uma mulher grita por socorro enquanto está sendo roubada a mão armada por um membro da gangue intitulada “The Warriors”. Todos na cidade conhecem a gangue e sabem que não interagir com eles é a melhor opção. Você não é como todos eles e pode decidir balançar um pouco com a ordem das coisas. Mas você sabe que as consequências de um ato altruísta pode não ser a melhor opção a longo prazo.",
     msc: "./sounds/gscream.wav",
+    img: "./Imagens/mulher.gif",
     options: [
       {
         text: "Ajudar",
@@ -2003,6 +2004,7 @@ const textNodes = [
     text:
       "O bandido foi facilmente derrotado. Ele não conseguiu nem ao menos levantar o punho antes de ser apagado por você. A mulher tenta agradecer enquanto segura o nervosismo.",
     msc: "./sounds/soco2.wav",
+    img: "./Imagens/mulher.gif",
     options: [
       {
         text: "Continuar",
@@ -2015,7 +2017,7 @@ const textNodes = [
     id: 129,
     text:
       "Você não aguenta mais essa cidade. Quer saber? Não ajudar deve ser o melhor a se fazer. Você ignora a cena e continua seu caminho de paz em direção a sua casa. Talvez você esteja morto por dentro.",
-
+    img: "./Imagens/mulher.gif",
     options: [
       {
         text: "Continuar",
@@ -2028,7 +2030,7 @@ const textNodes = [
     id: 130,
     text:
       "Ela parece cansada, falou que só estava procurando um lugar para comer, pois trabalhava em uma fábrica e não voltava para casa havia 4 dias. A mulher está perdida e não sabe para onde ir. ",
-
+    img: "./Imagens/mulher.gif",
     options: [
       {
         text: "Ajudar",
@@ -2046,7 +2048,7 @@ const textNodes = [
     id: 131,
     text:
       "Você sabe como a vida aqui é difícil. Acabou decidindo levá-la a um lugar para comer. Pelo menos assim você teria cumprido a sua cota de boas ações da semana.",
-
+    img: "./Imagens/mulher.gif",
     options: [
       {
         text: "Continuar",
@@ -2059,7 +2061,7 @@ const textNodes = [
     id: 132,
     text:
       "Entre pratos de comida e xícaras quentes de café, vocês acabam notando que ambos viveram vidas muito semelhantes. Ambos vem de uma família controladora, que sempre queria decidir o que era melhor para quem. Na verdade, faz muito tempo que você não conhece alguém assim.",
-    img: "./Imangens/dinner.png",
+    img: "./Imangens/smoke.gif",
     options: [
       {
         text: "Continuar",
@@ -2072,7 +2074,7 @@ const textNodes = [
     id: 133,
     text:
       "Tudo está ótimo, mas o momento só dura até o um celular tocar (quem ainda usa celular nesses tempos? Alguém aqui está sendo rastreada). É a polícia. Após uma breve conversa a mulher é informada que há algum tempo o carro da filha foi encontrado destruído e a garota estava desaparecida.",
-    img: "./Imangens/dinner.png",
+    img: "./Imangens/smoke.gif",
     options: [
       {
         text: "Continuar",
@@ -2085,7 +2087,7 @@ const textNodes = [
     id: 135,
     text:
       "O ar fica carregado. Entre choros de desespero e tentativas para acalmar uma mãe sem esperanças, você acaba pedindo uma foto da garota. ",
-    img: "./Imangens/dinner.png",
+    img: "./Imangens/smoke.gif",
     options: [
       {
         text: "Continuar",
@@ -2098,7 +2100,7 @@ const textNodes = [
     id: 136,
     text:
       "No momento em que a mãe mostra a foto, você lamenta não poder voltar no tempo. Todas as descrições da menina do bar batem com a foto. Mas por quê sequestrariam uma mulher da zona pobre da cidade? Você lamenta as escolhas erradas que fez nessa noite.",
-    img: "./Imangens/dinner.png",
+    img: "./Imangens/smoke.gif",
     options: [
       {
         text: "Continuar",
@@ -2111,7 +2113,7 @@ const textNodes = [
     id: 137,
     text:
       "Você decide tenta ajudar e explica para a mulher que pode ter uma pista de onde a garota esteja.",
-    img: "./Imangens/dinner.png",
+    img: "./Imangens/smoke.gif",
     options: [
       {
         text: "Investigar",
@@ -2124,7 +2126,7 @@ const textNodes = [
     id: 138,
     text:
       "Após ser questionado sobre como isso seria possível, você responde a verdade. Você teve a chance de prevenir isso mas acabou deixando a chance passar. Você explica o ocorrido.",
-    img: "./Imangens/dinner.png",
+    img: "./Imangens/smoke.gif",
     options: [
       {
         text: "Continuar",
@@ -2137,7 +2139,7 @@ const textNodes = [
     id: 139,
     text:
       "A mulher está arrasada. Ao escutar todas as palavras que ela tem a dizer sobre você e seu caráter, você decide procurar pistas.",
-    img: "./Imangens/dinner.png",
+    img: "./Imangens/smoke.gif",
     options: [
       {
         text: "Continuar",
@@ -2175,8 +2177,9 @@ const textNodes = [
   {
     id: 143,
     text:
-      "Infeliz por descobrir o resultado de seus atos, você caminha pelas sombras da cidade, bêbado e sem esperanças.",
-    img: "./Imangens/quarto.png",
+      "Arrasado por descobrir o resultado de seus atos, você caminha pelas sombras da cidade, bêbado e sem esperanças.",
+    img: "./Imangens/detec.gif",
+
     options: [
       {
         text: "Continuar",
