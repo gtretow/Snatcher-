@@ -469,7 +469,7 @@ const textNodes = [
 
   {
     id: 28,
-    img: "./Imagens/subway.gif",
+   
     text:
       "Você foi surprendido por mais inimigos do que podia aguentar. Com um golpe em sua nuca, seus ultimos suspiros também são os ultimos de Lígia",
 
@@ -575,7 +575,7 @@ const textNodes = [
 
   {
     id: 35,
-    img: "./Imagens/metro.png",
+    img:"./Imagens/taxi.jpg",
     text:
       "Após os agradecimentos você deixa Lígia aos cuidados dos médicos e sai do metrô para buscar um táxi e finalmente retornar para casa. O Taxista é um falastrão mas dessa vez você não quer papo. Ele deve achar que você é uma pessoa horrível. ",
 
@@ -589,7 +589,7 @@ const textNodes = [
 
   {
     id: 36,
-    img: "./Imagens/taxi.jpg",
+    
 
     text:
       "Ao chegar em casa você encontra um gato próximo a sua porta. Deseja convidá-lo para entrar?",
@@ -1103,6 +1103,7 @@ const textNodes = [
   {
     id: 67,
     msc: "./sounds/carengine.wav",
+    img: "./Imagens/carrun.gif"
     text: "",
 
     options: [
