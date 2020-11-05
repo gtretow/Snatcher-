@@ -126,7 +126,7 @@ const textNodes = [
 
     text:
       "Ruas sujas, poucas luz e animais estranhos que um dia foram conhecidos como cachorros. Você encontra uma garagem a céu aberto e decide pular a grade. Na esperança de encontrar um amigo policial, um táxi, ou até mesmo um ladrão de carros que possa te dar uma carona. Que diferença faz? Provavelmente seria um plano entre o ladrão e o dono do carro para ganhar dinheiro com seguro.",
-   
+
     options: [
       {
         text: "Continuar",
@@ -2059,10 +2059,10 @@ const textNodes = [
 
   {
     id: 132,
-    img: "./Imangens/smoke1.gif",
+
     text:
       "Entre pratos de comida e xícaras quentes de café, vocês acabam notando que ambos viveram vidas muito semelhantes. Ambos vem de uma família controladora, que sempre queria decidir o que era melhor para quem. Na verdade, faz muito tempo que você não conhece alguém assim.",
-    
+
     options: [
       {
         text: "Continuar",
@@ -2076,7 +2076,7 @@ const textNodes = [
     img: "./Imangens/smoke.gif",
     text:
       "Tudo está ótimo, mas o momento só dura até o um celular tocar (quem ainda usa celular nesses tempos? Alguém aqui está sendo rastreada). É a polícia. Após uma breve conversa a mulher é informada que há algum tempo o carro da filha foi encontrado destruído e a garota estava desaparecida.",
-    
+
     options: [
       {
         text: "Continuar",
@@ -2089,7 +2089,7 @@ const textNodes = [
     id: 135,
     text:
       "O ar fica carregado. Entre choros de desespero e tentativas para acalmar uma mãe sem esperanças, você acaba pedindo uma foto da garota. ",
-    img: "./Imangens/smoke.gif",
+
     options: [
       {
         text: "Continuar",
@@ -2102,7 +2102,7 @@ const textNodes = [
     id: 136,
     text:
       "No momento em que a mãe mostra a foto, você lamenta não poder voltar no tempo. Todas as descrições da menina do bar batem com a foto. Mas por quê sequestrariam uma mulher da zona pobre da cidade? Você lamenta as escolhas erradas que fez nessa noite.",
-    img: "./Imangens/smoke.gif",
+
     options: [
       {
         text: "Continuar",
@@ -2115,7 +2115,7 @@ const textNodes = [
     id: 137,
     text:
       "Você decide tenta ajudar e explica para a mulher que pode ter uma pista de onde a garota esteja.",
-    img: "./Imangens/smoke.gif",
+
     options: [
       {
         text: "Investigar",
@@ -2128,7 +2128,7 @@ const textNodes = [
     id: 138,
     text:
       "Após ser questionado sobre como isso seria possível, você responde a verdade. Você teve a chance de prevenir isso mas acabou deixando a chance passar. Você explica o ocorrido.",
-    img: "./Imangens/smoke.gif",
+
     options: [
       {
         text: "Continuar",
@@ -2141,7 +2141,7 @@ const textNodes = [
     id: 139,
     text:
       "A mulher está arrasada. Ao escutar todas as palavras que ela tem a dizer sobre você e seu caráter, você decide procurar pistas.",
-    img: "./Imangens/smoke.gif",
+
     options: [
       {
         text: "Continuar",
@@ -2152,9 +2152,10 @@ const textNodes = [
 
   {
     id: 141,
+
     text:
       "Depois de 4 horas você consegue rastrear os bêbados do bar e usa as informações deles para chegar em um apartamento.",
-    img: "./Imangens/quarto.png",
+
     options: [
       {
         text: "Continuar",
@@ -2165,9 +2166,10 @@ const textNodes = [
 
   {
     id: 142,
+
     text:
       "A polícia está no local. Já é tarde demais. Os inexperientes investigadores da polícia estão tomando conta do lugar e você não tem a autorização necessária para entrar. Parece que houve um assassinato lá dentro e a casa já foi revirada pela própria polícia para procurar pistas.",
-    img: "./Imangens/quarto.png",
+
     options: [
       {
         text: "Continuar",
@@ -2178,9 +2180,9 @@ const textNodes = [
 
   {
     id: 143,
+
     text:
       "Arrasado por descobrir o resultado de seus atos, você caminha pelas sombras da cidade, bêbado e sem esperanças.",
-    img: "./Imangens/detec.gif",
 
     options: [
       {
@@ -2192,9 +2194,9 @@ const textNodes = [
 
   {
     id: 144,
+    sound: "./sounds/batida.wav",
     text:
       "Como o fim de um filme trágico, você acaba não percebendo as luzes fortes que vem da estrada e é atropelado.",
-    sound: "./sounds/batida.wav",
 
     options: [
       {
@@ -2207,7 +2209,7 @@ const textNodes = [
   {
     id: 145,
     text:
-      "É o fim. Entre todas as escolhas disponíveis, você tomou as piores possíveis.",
+      "Entre todas as escolhas disponíveis, você tomou as piores possíveis. Você desmaia sem saber se acordara para viver outro dia.",
 
     options: [
       {
@@ -2219,7 +2221,7 @@ const textNodes = [
 
   {
     id: 146,
-    text: "Descanse em paz.",
+    text: "Descanse em paz?",
 
     options: [
       {
