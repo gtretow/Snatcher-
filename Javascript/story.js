@@ -121,7 +121,7 @@ const textNodes = [
 
   {
     id: 8,
-
+    img: "./Imagens/ruasimundas1.gif",
     msc: "./sounds/andandochuva.mp3",
 
     text:
@@ -516,7 +516,7 @@ const textNodes = [
 
   {
     id: 31,
-    img: "./Imagens/metro.png",
+    img: "./Imagens/metro1.gif",
     msc: "./sounds/correndo.wav",
     text:
       "Ao chegar na conexão para a linha amarela, seus inimigos começam a se aglomerar nas portas de saída dos vagões. Você está muito cansado para lutar, mas felizmente os seus planos costumam ser infalíveis e como você previu, a polícia logo apareceu para ajudar no confronto.",
@@ -531,7 +531,7 @@ const textNodes = [
 
   {
     id: 32,
-    img: "./Imagens/metro.png",
+    img: "./Imagens/metro1.gif",
     msc: "./sounds/heart.wav",
     text:
       "Adrenalina, sangue e suor. Você não consegue mais distinguir o certo do errado. Inimigos sendo mortos brutalmente e inocentes sendo machucados. A pessoa que tentava fazer o certo morreu no momento em que Lígia foi morta",
@@ -546,7 +546,7 @@ const textNodes = [
 
   {
     id: 33,
-    img: "./Imagens/metro.png",
+    img: "./Imagens/metro1.gif",
     msc: "./sounds/2shots.wav",
     text:
       "Apenas 10 minutos foram necessários para tudo acabar. Há quem diga que a brutalidade policial ganhou. Mas o que é brutalidade em uma cidade como Astra? Entre feridos, mortos e presos, você se encontra cansado. Lígia respira aliviada pois sabe que acabou. A garota treme de medo enquanto tenta planejar uma maneira de buscar sua filha e se mudar dessa cidade infernal amanhã mesmo. ",
@@ -561,7 +561,7 @@ const textNodes = [
 
   {
     id: 34,
-    img: "./Imagens/metro.png",
+    img: "./Imagens/metro1.gif",
     text:
       "Apenas 10 minutos foram necessários para tudo acabar. Há quem diga que a brutalidade policial ganhou. Mas o que é brutalidade em uma cidade como Astra? Entre feridos, mortos e presos, você ainda sente o gosto de sangue dos inimigos na sua boca.",
 
@@ -2073,7 +2073,7 @@ const textNodes = [
 
   {
     id: 133,
-    img: "./Imangens/smoke.gif",
+    img: "./Imagens/smoke.gif",
     text:
       "Tudo está ótimo, mas o momento só dura até o um celular tocar (quem ainda usa celular nesses tempos? Alguém aqui está sendo rastreada). É a polícia. Após uma breve conversa a mulher é informada que há algum tempo o carro da filha foi encontrado destruído e a garota estava desaparecida.",
 
@@ -2087,6 +2087,7 @@ const textNodes = [
 
   {
     id: 135,
+    img: "./Imagens/smoke.gif",
     text:
       "O ar fica carregado. Entre choros de desespero e tentativas para acalmar uma mãe sem esperanças, você acaba pedindo uma foto da garota. ",
 
@@ -2100,6 +2101,7 @@ const textNodes = [
 
   {
     id: 136,
+    img: "./Imagens/smoke.gif",
     text:
       "No momento em que a mãe mostra a foto, você lamenta não poder voltar no tempo. Todas as descrições da menina do bar batem com a foto. Mas por quê sequestrariam uma mulher da zona pobre da cidade? Você lamenta as escolhas erradas que fez nessa noite.",
 
@@ -2113,6 +2115,7 @@ const textNodes = [
 
   {
     id: 137,
+    img: "./Imagens/smoke.gif",
     text:
       "Você decide tenta ajudar e explica para a mulher que pode ter uma pista de onde a garota esteja.",
 
@@ -2126,6 +2129,7 @@ const textNodes = [
 
   {
     id: 138,
+    img: "./Imagens/smoke.gif",
     text:
       "Após ser questionado sobre como isso seria possível, você responde a verdade. Você teve a chance de prevenir isso mas acabou deixando a chance passar. Você explica o ocorrido.",
 
@@ -2139,6 +2143,7 @@ const textNodes = [
 
   {
     id: 139,
+    img: "./Imagens/smoke.gif",
     text:
       "A mulher está arrasada. Ao escutar todas as palavras que ela tem a dizer sobre você e seu caráter, você decide procurar pistas.",
 
@@ -2152,6 +2157,7 @@ const textNodes = [
 
   {
     id: 141,
+    img: "./Imagens/quarto.png",
 
     text:
       "Depois de 4 horas você consegue rastrear os bêbados do bar e usa as informações deles para chegar em um apartamento.",
@@ -2169,7 +2175,7 @@ const textNodes = [
 
     text:
       "A polícia está no local. Já é tarde demais. Os inexperientes investigadores da polícia estão tomando conta do lugar e você não tem a autorização necessária para entrar. Parece que houve um assassinato lá dentro e a casa já foi revirada pela própria polícia para procurar pistas.",
-
+    img: "./Imagens/quarto.png",
     options: [
       {
         text: "Continuar",
